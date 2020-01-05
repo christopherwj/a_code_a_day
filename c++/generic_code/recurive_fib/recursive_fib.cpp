@@ -23,3 +23,6 @@ int main() {
 	cout << b;
 	return 0;
 }
+
+//to calculate the 42nd term which is 267914296, it took 12.66 seconds which is faster than the method that uses a while loop
+// this makes sense as the while loop adds time because in assembly it jumps around to diffrent insturctions and valides before continuing 
