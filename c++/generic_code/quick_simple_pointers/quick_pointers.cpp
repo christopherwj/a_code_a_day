@@ -37,4 +37,6 @@ int main() {
 	cout << ptr_2 << endl;
 
 	return 0;
+	
+	// revisiting this code to make sure I am familar with pointers.
 }
