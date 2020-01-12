@@ -11,8 +11,11 @@ changing from ints to floats.
 */
 void countChange(int change) 
 {
-	int quarter, dime, nickel, penny;
-	
+
+	int dollar, quarter, dime, nickel, penny;
+
+	dollar = change / 100;
+	change = change % 100;
 	quarter = change / 25;
 	change = change % 25;
 	dime = change / 10; 
@@ -20,8 +23,8 @@ void countChange(int change)
 	nickel = change / 5;
 	change %= 5; 
 	penny = change;
-	cout << quarter << " " << dime << " " << nickel << " " << penny << "\n\n";
-	printf("quarters: %d, dimes = %d, nickels: %d, penny: %d\n", quarter, dime, nickel, penny);
+	cout << dollar << " " << quarter << " " << dime << " " << nickel << " " << penny << "\n\n";
+	printf("dollar(s):%d quarter(s): %d, dime(s) = %d, nickel(s): %d, penny(ies): %d\n", dollar, quarter, dime, nickel, penny);
 
 }
 
@@ -29,7 +32,7 @@ void countChange(int change)
 
 int main() 
 {
-	change = 76;
+	change = 101;
 	countChange(change);
 
 	return 0;
