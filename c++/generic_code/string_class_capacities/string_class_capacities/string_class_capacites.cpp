@@ -10,9 +10,11 @@ int main() {
 	cout << str.length() << endl;
 	cout << str.empty() << endl;
 	cout << str << endl;
-	str.push_back('push');
+	str.push_back('Y');
 	cout << str << endl;
 	str.pop_back();
+	cout << str << endl;
+	str.append("NO");
 	cout << str << endl;
 	str.resize(6);
 	cout << str << endl;
