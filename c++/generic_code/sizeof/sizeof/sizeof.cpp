@@ -1,9 +1,20 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
-int main() {
+class Chris
+{
+private:
+	string thoughts = "My name is chris.";
+public:
+	int height = 173; //cm
+};
 
+
+
+int main() {
+	cout << " The size of the chris class is:" << sizeof(Chris) << endl;
 	cout << " The size of int is:" << sizeof(int) << endl;
 	cout << " The size of float is:" << sizeof(float) << endl;
 	cout << " The size of char is:" << sizeof(char) << endl;
