@@ -14,6 +14,11 @@ public:
 
 
 int main() {
+	int a;
+	int *ptr;	
+	ptr = &a;	//pointers must point to the same data type
+
+	cout << " The size of an int pointer is:" << sizeof(&a) << endl;	// should be 4 since that is the size of an int
 	cout << " The size of the chris class is:" << sizeof(Chris) << endl;
 	cout << " The size of int is:" << sizeof(int) << endl;
 	cout << " The size of float is:" << sizeof(float) << endl;
