@@ -14,11 +14,15 @@ int main(void) {
 
 
 	do {
-		
+
 		cout << "Enter the number for th eoperation you wish to perform from the menu." << endl;
 		cout << "1. Please press one to run employee wages with restaurant profit of $6000 and waiter wages of $1000/$1500/$1700 respectively." << endl;
 		cout << "2. Please press two to run employee wages with restaurant profit of -$6000 and waiter wages of $1000/$1000/$1000 respectively." << endl;
 		cout << "3. Please press 3 to enter in custom values for restaurant profit and waiter wages." << endl;
+		cout << "4. The size of Owner class is:" << sizeof(Owner) << endl;
+		cout << "5. The size of Chef class is:" << sizeof(Chef) << endl;
+		cout << "6. The size of Waiter class is:" << sizeof(Waiter) << endl;
+		cout << "6. The size of Employee class is:" << sizeof(Employee) << endl;
 		cout << "Not pressing a choice above will exit the program." << endl;
 
 		cout << "Enter Choice: ";
@@ -106,6 +110,6 @@ int main(void) {
 			break;
 		}
 	} while (input > 1 or input < 3);
-	
+
 	return 0;
 }

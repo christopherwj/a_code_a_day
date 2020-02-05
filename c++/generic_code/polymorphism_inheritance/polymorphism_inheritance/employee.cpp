@@ -14,10 +14,10 @@ public:
 	string employeeType;		// used for print out dipslay
 	int baseSalary = 0;		// used for print out dipslay
 	double salary = 0;		// declared for all subsequent classes
-        int restaurantProfit = 0;	// decalred for Owner and Chefs
+	int restaurantProfit = 0;	// decalred for Owner and Chefs
 
 	void virtual print() {
-		printf ("name	 employeeID     employee-type	 base-salary	 Salary	    Cuisine	 Tips-earned	 years-worked   \n");
+		printf("name	 employeeID     employee-type	 base-salary	 Salary	    Cuisine	 Tips-earned	 years-worked   \n");
 	}	// use this to show that virtual is needed for the compiler to choose the object's print()
 private:
 
@@ -45,7 +45,7 @@ public:
 
 	void print() {
 		salary = baseSalary + (0.6 * restaurantProfit);  // salary calculation for all objects from Owner class
-		cout << "name:" << name << "	employeeID:" << employeeID << "	employee-type:" << employeeType << "	base-salary:" << baseSalary << "	Salary:" << salary <<"	restuarant-total-profit:"<< restaurantProfit<<"    Cuisine: N/A" << "	Tips-earned:N/A" << "      years-worked:N/A" << endl;
+		cout << "name:" << name << "	employeeID:" << employeeID << "	employee-type:" << employeeType << "	base-salary:" << baseSalary << "	Salary:" << salary << "	restuarant-total-profit:" << restaurantProfit << "    Cuisine: N/A" << "	Tips-earned:N/A" << "      years-worked:N/A" << endl;
 	}//TODO: make a function that shows name, id, employeetype, base salary and salary, and cuisine 
 
 private:
@@ -72,20 +72,20 @@ public:						//comments from above Owner class apply below, they are also relate
 		baseSalary = 10000;
 		restaurantProfit = profit;
 
-		
+
 	}
 
-	
+
 	void print() {
 		salary = baseSalary + 0.2 * restaurantProfit;		// salary compensation calculation for all objects from Chef class
-		cout << "name:" << name << "	employeeID:" << employeeID << "	employee-type:" << employeeType << "	base-salary:" << baseSalary << "	Salary:" << salary <<"	restaurant-total-profit:" << restaurantProfit <<"	Cuisine:" << cuisine << "	Tips-earned:N/A" << "      years-worked:N/A" << endl;
+		cout << "name:" << name << "	employeeID:" << employeeID << "	employee-type:" << employeeType << "	base-salary:" << baseSalary << "	Salary:" << salary << "	restaurant-total-profit:" << restaurantProfit << "	Cuisine:" << cuisine << "	Tips-earned:N/A" << "      years-worked:N/A" << endl;
 	}
 private:
 
 };
 
 
-class Waiter: public Employee {
+class Waiter : public Employee {
 public:
 
 	int tips;				//create values that only relate to class and thus objects waiter to be used with scoped operations
@@ -109,7 +109,7 @@ public:
 
 	void print() {
 		salary = baseSalary + tips;    // salary calcualtion for all objects waiter
-		cout << "name:" << name << "	employeeID:" << employeeID << "	employee-type:" << employeeType << "	base-salary:" << baseSalary << "	Salary:" << salary <<"	Cuisine: N/A" << "	Tips-earned:" <<tips << "      years-worked:" <<experience << endl;
+		cout << "name:" << name << "	employeeID:" << employeeID << "	employee-type:" << employeeType << "	base-salary:" << baseSalary << "	Salary:" << salary << "	Cuisine: N/A" << "	Tips-earned:" << tips << "      years-worked:" << experience << endl;
 		//TODO: make a function that shows name, id, employeetype, base salary and salary, and tips
 	}
 
