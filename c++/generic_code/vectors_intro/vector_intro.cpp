@@ -29,6 +29,16 @@ int main() {
 
 	cout << endl << myVector.at(2);
 	cout << endl << myVector.size();
+	
+	for (unsigned int i = 0; i < myVector.size(); i++) {
+		cout << myVector[i] << " ";
+	}
+
+	myVector.clear();
+	
+	for (unsigned int i = 0; i < myVector.size(); i++) {  
+		cout << myVector[i] << " ";
+	}
 
 	return 0;
 }
