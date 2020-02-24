@@ -2,6 +2,12 @@
 #include <new>
 #include <iostream>
 
+
+/*
+* DISCLAIMER: This code is sourced from my data strcutures class as such I claim no ownership, credit, or
+* merit that could be gained from this code all rights, privledges, and credit is credited to professor M. SARKAR.
+*/
+
 using namespace std;
 
 //define the default constructor for Stack
@@ -27,7 +33,6 @@ Stack::Stack(const Stack& original)
 }
 
 //definition for Stack Destructor
-
 Stack::~Stack()
 {
 	//set pointers to run through the stack
@@ -117,3 +122,4 @@ void Stack::pop()
 	else
 		cerr << "*** Stack is empty  -- can't remove a value.";
 }
+

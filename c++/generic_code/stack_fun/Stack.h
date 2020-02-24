@@ -1,6 +1,11 @@
 #pragma once
 #include <iostream>
 
+/*
+* DISCLAIMER:This code is sourced from my data strcutures class as such I claim no ownership, credit, or
+* merit that could be gained from this code all rights, privledges, and credit is credited to professor M. SARKAR.
+*/
+
 using namespace std;
 
 #ifndef STACK
