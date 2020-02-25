@@ -9,6 +9,7 @@ int main(void) {
 	s.push(650);
 	s.push(-34);
 	s.push('a');
+	s.push('15');
 	s.push('A');
 	s.push('a');
 	s.push(000);
