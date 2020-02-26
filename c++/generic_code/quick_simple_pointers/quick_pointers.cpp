@@ -35,7 +35,22 @@ int main() {
 	
 	cout << ptr_1 << endl;
 	cout << ptr_2 << endl;
+	
+	//double pointers
+	 
+	int var = 81;
 
+	int* ptr1;	//pointer for var
+	int** ptr2;	//pointer for pointer1
+	
+	ptr1 = &var;	//storing address in the first pointer
+
+	ptr2 = &ptr1;	//storing address of ptr1 in ptr2
+
+	cout << "The value for var is:" << var << endl;
+        cout << "The value for the single pointer is:" << *ptr1 << endl;
+	cout << "The value for the double pointer is:" << **ptr2 << endl;	
+	
 	return 0;
 	
 	// revisiting this code to make sure I am familar with pointers.
