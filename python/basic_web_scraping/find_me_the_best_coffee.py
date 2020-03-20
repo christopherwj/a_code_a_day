@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
-import pandas as pd 
+import pandas as pd
 
 #get the data from the website
 url = 'https://sandiego.eater.com/maps/new-coffee-shops-san-diego-essential'
@@ -32,4 +32,4 @@ for b in coffee_shop_names[1:]:
 
 #print list of coffee shops
 for item in coffee_shop_list:
-	print item
+	print(item)
