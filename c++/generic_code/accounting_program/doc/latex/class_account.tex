@@ -10,17 +10,17 @@
 \textbf{ Account} ()
 \item 
 \textbf{ Account} (double)
-\item 
+\begin{DoxyCompactList}\small\item\em Constructs a new instance. \end{DoxyCompactList}\item 
 double \textbf{ get\+Balance} (void)
-\item 
+\begin{DoxyCompactList}\small\item\em Gets the balance. \end{DoxyCompactList}\item 
 double \textbf{ get\+Rate} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Gets the rate. \end{DoxyCompactList}\item 
 bool \textbf{ deposit} (double)
-\item 
+\begin{DoxyCompactList}\small\item\em deposits money into the account \end{DoxyCompactList}\item 
 bool \textbf{ withdrawl} (double)
-\item 
+\begin{DoxyCompactList}\small\item\em Withdrawls money from account. \end{DoxyCompactList}\item 
 bool \textbf{ accrue\+Interest} (int)
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em accrues interest over time \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsubsection*{Private Attributes}
 \begin{DoxyCompactItemize}
 \item 
@@ -45,6 +45,15 @@ double \textbf{ rate}
 
 
 
+Constructs a new instance. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em starting\+Balance} & The starting balance of the account. \\
+\hline
+\end{DoxyParams}
+
+
 \doxysubsubsection{Member Function Documentation}
 \mbox{\label{class_account_af9cfc6042966aa962593dad9a5e14195}} 
 \index{Account@{Account}!accrueInterest@{accrueInterest}}
@@ -52,30 +61,80 @@ double \textbf{ rate}
 \doxyparagraph{accrueInterest()}
 {\footnotesize\ttfamily bool Account\+::accrue\+Interest (\begin{DoxyParamCaption}\item[{int}]{input }\end{DoxyParamCaption})}
 
+
+
+accrues interest over time 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em input} & The time in months to accrue interest\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if interest can be accrued, false if not 
+\end{DoxyReturn}
 \mbox{\label{class_account_a8fef3163df8af41c441d7cedd32b23b5}} 
 \index{Account@{Account}!deposit@{deposit}}
 \index{deposit@{deposit}!Account@{Account}}
 \doxyparagraph{deposit()}
 {\footnotesize\ttfamily bool Account\+::deposit (\begin{DoxyParamCaption}\item[{double}]{input }\end{DoxyParamCaption})}
 
+
+
+deposits money into the account 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em input} & The input to deposit\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true for success and false for failure 
+\end{DoxyReturn}
 \mbox{\label{class_account_a956573e62b35b88667f7ba919fc31acd}} 
 \index{Account@{Account}!getBalance@{getBalance}}
 \index{getBalance@{getBalance}!Account@{Account}}
 \doxyparagraph{getBalance()}
 {\footnotesize\ttfamily double Account\+::get\+Balance (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
 
+
+
+Gets the balance. 
+
+\begin{DoxyReturn}{Returns}
+The balance. 
+\end{DoxyReturn}
 \mbox{\label{class_account_ac810c872429a54e7552f2c03a78b13f0}} 
 \index{Account@{Account}!getRate@{getRate}}
 \index{getRate@{getRate}!Account@{Account}}
 \doxyparagraph{getRate()}
 {\footnotesize\ttfamily double Account\+::get\+Rate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
+
+
+Gets the rate. 
+
+\begin{DoxyReturn}{Returns}
+The rate. 
+\end{DoxyReturn}
 \mbox{\label{class_account_a65838f0f5406690183b3fe3c61b96c9d}} 
 \index{Account@{Account}!withdrawl@{withdrawl}}
 \index{withdrawl@{withdrawl}!Account@{Account}}
 \doxyparagraph{withdrawl()}
 {\footnotesize\ttfamily bool Account\+::withdrawl (\begin{DoxyParamCaption}\item[{double}]{input }\end{DoxyParamCaption})}
 
+
+
+Withdrawls money from account. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em input} & The amount to withdrawl\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns true for success and false for failure 
+\end{DoxyReturn}
 
 
 \doxysubsubsection{Member Data Documentation}

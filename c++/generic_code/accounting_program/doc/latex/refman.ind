@@ -1,69 +1,70 @@
 \begin{theindex}
 
-  \item {Account}, 1
+  \item {Account}, 2
     \subitem {Account}, 2
-    \subitem {accrueInterest}, 2
-    \subitem {balance}, 3
-    \subitem {deposit}, 2
-    \subitem {getBalance}, 2
-    \subitem {getRate}, 2
-    \subitem {rate}, 3
-    \subitem {withdrawl}, 3
-  \item {account.cpp}, 3
-  \item {account.h}, 3
+    \subitem {accrueInterest}, 3
+    \subitem {balance}, 4
+    \subitem {deposit}, 3
+    \subitem {getBalance}, 3
+    \subitem {getRate}, 3
+    \subitem {rate}, 4
+    \subitem {withdrawl}, 4
+  \item {account}, 4
+  \item {account.cpp}, 5
+  \item {account.h}, 5
   \item {accrueInterest}
-    \subitem {Account}, 2
+    \subitem {Account}, 3
 
   \indexspace
 
   \item {balance}
-    \subitem {Account}, 3
+    \subitem {Account}, 4
 
   \indexspace
 
   \item {clearScreen}
-    \subitem {source.cpp}, 4
+    \subitem {source.cpp}, 5
 
   \indexspace
 
   \item {deposit}
-    \subitem {Account}, 2
+    \subitem {Account}, 3
 
   \indexspace
 
   \item {getBalance}
-    \subitem {Account}, 2
+    \subitem {Account}, 3
   \item {getRate}
-    \subitem {Account}, 2
+    \subitem {Account}, 3
 
   \indexspace
 
   \item {main}
-    \subitem {source.cpp}, 4
+    \subitem {source.cpp}, 5
   \item {menu}
-    \subitem {source.cpp}, 4
+    \subitem {source.cpp}, 5
 
   \indexspace
 
   \item {pauseScreen}
-    \subitem {source.cpp}, 4
+    \subitem {source.cpp}, 5
 
   \indexspace
 
   \item {rate}
-    \subitem {Account}, 3
+    \subitem {Account}, 4
 
   \indexspace
 
-  \item {source.cpp}, 3
-    \subitem {clearScreen}, 4
-    \subitem {main}, 4
-    \subitem {menu}, 4
-    \subitem {pauseScreen}, 4
+  \item {source.cpp}, 5
+    \subitem {clearScreen}, 5
+    \subitem {main}, 5
+    \subitem {menu}, 5
+    \subitem {pauseScreen}, 5
 
   \indexspace
 
   \item {withdrawl}
-    \subitem {Account}, 3
+    \subitem {Account}, 4
 
 \end{theindex}
