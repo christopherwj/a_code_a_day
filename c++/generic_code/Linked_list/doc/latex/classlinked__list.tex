@@ -10,19 +10,19 @@
 \textbf{ linked\+\_\+list} (void)
 \item 
 void \textbf{ insert} (int x)
-\item 
+\begin{DoxyCompactList}\small\item\em Inserts a node into the linked list. \end{DoxyCompactList}\item 
 bool \textbf{ Empty} ()
-\item 
+\begin{DoxyCompactList}\small\item\em checks if linked list is empty \end{DoxyCompactList}\item 
 void \textbf{ Insert\+At\+End} (int x)
-\item 
+\begin{DoxyCompactList}\small\item\em adds a list item to end of list \end{DoxyCompactList}\item 
 void \textbf{ Delete} (int x)
-\item 
+\begin{DoxyCompactList}\small\item\em traverses list to delete a given value. \end{DoxyCompactList}\item 
 void \textbf{ Display} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Displays the list values. \end{DoxyCompactList}\item 
 int \textbf{ Sum} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Adds all the values in the list. \end{DoxyCompactList}\item 
 int \textbf{ Average} ()
-\item 
+\begin{DoxyCompactList}\small\item\em averages all values in list \end{DoxyCompactList}\item 
 \textbf{ $\sim$linked\+\_\+list} ()
 \end{DoxyCompactItemize}
 \doxysubsubsection*{Private Attributes}
@@ -37,6 +37,10 @@ int \textbf{ Average} ()
 int \textbf{ length} = 0
 \end{DoxyCompactItemize}
 
+
+\doxysubsubsection{Detailed Description}
+Class handle the linking and searching of the LL ~\newline
+ 
 
 \doxysubsubsection{Constructor \& Destructor Documentation}
 \mbox{\label{classlinked__list_aa21cf0a5106d9fcfea0b20fedc397195}} 
@@ -60,17 +64,37 @@ int \textbf{ length} = 0
 \doxyparagraph{Average()}
 {\footnotesize\ttfamily int linked\+\_\+list\+::\+Average (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
+
+
+averages all values in list 
+
+\begin{DoxyReturn}{Returns}
+average of list values 
+\end{DoxyReturn}
 \mbox{\label{classlinked__list_ac76081aea14af63de2bf3b2016b2deb1}} 
 \index{linked\_list@{linked\_list}!Delete@{Delete}}
 \index{Delete@{Delete}!linked\_list@{linked\_list}}
 \doxyparagraph{Delete()}
 {\footnotesize\ttfamily void linked\+\_\+list\+::\+Delete (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})}
 
+
+
+traverses list to delete a given value. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em x} & value to delete \\
+\hline
+\end{DoxyParams}
 \mbox{\label{classlinked__list_ac86e513d6c6c1bb010f8dbfd31607b3b}} 
 \index{linked\_list@{linked\_list}!Display@{Display}}
 \index{Display@{Display}!linked\_list@{linked\_list}}
 \doxyparagraph{Display()}
 {\footnotesize\ttfamily void linked\+\_\+list\+::\+Display (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Displays the list values. 
 
 \mbox{\label{classlinked__list_a381209e51d8d8434d762fca64f1a4df8}} 
 \index{linked\_list@{linked\_list}!Empty@{Empty}}
@@ -78,24 +102,56 @@ int \textbf{ length} = 0
 \doxyparagraph{Empty()}
 {\footnotesize\ttfamily bool linked\+\_\+list\+::\+Empty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
+
+
+checks if linked list is empty 
+
+\begin{DoxyReturn}{Returns}
+true if empty, false if it contains data 
+\end{DoxyReturn}
 \mbox{\label{classlinked__list_aa4d8001cc00c013c79e1fbc1dfc6178e}} 
 \index{linked\_list@{linked\_list}!insert@{insert}}
 \index{insert@{insert}!linked\_list@{linked\_list}}
 \doxyparagraph{insert()}
 {\footnotesize\ttfamily void linked\+\_\+list\+::insert (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})}
 
+
+
+Inserts a node into the linked list. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em x} & value to be insterted into the list (number) \\
+\hline
+\end{DoxyParams}
 \mbox{\label{classlinked__list_af175ce8ab104ce7d5ed5f99d9df6e6a1}} 
 \index{linked\_list@{linked\_list}!InsertAtEnd@{InsertAtEnd}}
 \index{InsertAtEnd@{InsertAtEnd}!linked\_list@{linked\_list}}
 \doxyparagraph{InsertAtEnd()}
 {\footnotesize\ttfamily void linked\+\_\+list\+::\+Insert\+At\+End (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})}
 
+
+
+adds a list item to end of list 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em x} & value to be added into the list \\
+\hline
+\end{DoxyParams}
 \mbox{\label{classlinked__list_a687825ceef2379d9f7dc991941588809}} 
 \index{linked\_list@{linked\_list}!Sum@{Sum}}
 \index{Sum@{Sum}!linked\_list@{linked\_list}}
 \doxyparagraph{Sum()}
 {\footnotesize\ttfamily int linked\+\_\+list\+::\+Sum (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
+
+
+Adds all the values in the list. 
+
+\begin{DoxyReturn}{Returns}
+value of all items in the list 
+\end{DoxyReturn}
 
 
 \doxysubsubsection{Member Data Documentation}

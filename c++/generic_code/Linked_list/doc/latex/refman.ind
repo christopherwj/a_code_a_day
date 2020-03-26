@@ -1,7 +1,7 @@
 \begin{theindex}
 
   \item {$\sim$linked\_list}
-    \subitem {linked\_list}, 2
+    \subitem {linked\_list}, 3
 
   \indexspace
 
@@ -11,13 +11,13 @@
   \indexspace
 
   \item {clearScreen}
-    \subitem {main.cpp}, 5
-    \subitem {main.h}, 6
+    \subitem {main.cpp}, 6
+    \subitem {main.h}, 7
 
   \indexspace
 
   \item {data}
-    \subitem {Node}, 4
+    \subitem {Node}, 5
   \item {Delete}
     \subitem {linked\_list}, 3
   \item {Display}
@@ -31,79 +31,79 @@
   \indexspace
 
   \item {head}
-    \subitem {linked\_list}, 3
+    \subitem {linked\_list}, 4
 
   \indexspace
 
   \item {insert}
     \subitem {linked\_list}, 3
   \item {InsertAtEnd}
-    \subitem {linked\_list}, 3
+    \subitem {linked\_list}, 4
 
   \indexspace
 
   \item {length}
-    \subitem {linked\_list}, 3
+    \subitem {linked\_list}, 4
   \item {linked\_list}, 2
-    \subitem {$\sim$linked\_list}, 2
+    \subitem {$\sim$linked\_list}, 3
     \subitem {Average}, 3
     \subitem {Delete}, 3
     \subitem {Display}, 3
     \subitem {Empty}, 3
-    \subitem {head}, 3
+    \subitem {head}, 4
     \subitem {insert}, 3
-    \subitem {InsertAtEnd}, 3
-    \subitem {length}, 3
-    \subitem {linked\_list}, 2
-    \subitem {Sum}, 3
-    \subitem {tail}, 3
+    \subitem {InsertAtEnd}, 4
+    \subitem {length}, 4
+    \subitem {linked\_list}, 3
+    \subitem {Sum}, 4
+    \subitem {tail}, 4
     \subitem {temp}, 4
-  \item {linked\_list.cpp}, 5
-  \item {linked\_list.h}, 5
+  \item {linked\_list.cpp}, 6
+  \item {linked\_list.h}, 6
 
   \indexspace
 
   \item {main}
-    \subitem {main.cpp}, 5
-  \item {main.cpp}, 5
-    \subitem {clearScreen}, 5
-    \subitem {main}, 5
-    \subitem {menu}, 5
-    \subitem {pauseScreen}, 6
-  \item {main.h}, 6
+    \subitem {main.cpp}, 7
+  \item {main.cpp}, 6
     \subitem {clearScreen}, 6
-    \subitem {menu}, 6
-    \subitem {pauseScreen}, 6
+    \subitem {main}, 7
+    \subitem {menu}, 7
+    \subitem {pauseScreen}, 7
+  \item {main.h}, 7
+    \subitem {clearScreen}, 7
+    \subitem {menu}, 7
+    \subitem {pauseScreen}, 7
   \item {menu}
-    \subitem {main.cpp}, 5
-    \subitem {main.h}, 6
+    \subitem {main.cpp}, 7
+    \subitem {main.h}, 7
 
   \indexspace
 
   \item {next}
-    \subitem {Node}, 4
-  \item {Node}, 4
-    \subitem {data}, 4
-    \subitem {next}, 4
-    \subitem {Node}, 4
-  \item {node.cpp}, 6
-  \item {node.h}, 6
+    \subitem {Node}, 5
+  \item {Node}, 5
+    \subitem {data}, 5
+    \subitem {next}, 5
+    \subitem {Node}, 5
+  \item {node.cpp}, 8
+  \item {node.h}, 8
 
   \indexspace
 
   \item {pauseScreen}
-    \subitem {main.cpp}, 6
-    \subitem {main.h}, 6
+    \subitem {main.cpp}, 7
+    \subitem {main.h}, 7
 
   \indexspace
 
   \item {Sum}
-    \subitem {linked\_list}, 3
+    \subitem {linked\_list}, 4
 
   \indexspace
 
   \item {tail}
-    \subitem {linked\_list}, 3
+    \subitem {linked\_list}, 4
   \item {temp}
     \subitem {linked\_list}, 4
 
