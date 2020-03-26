@@ -1,0 +1,115 @@
+\begin{theindex}
+
+  \item {addLeaf}
+    \subitem {BST}, 2
+  \item {addLeafPrivate}
+    \subitem {BST}, 3
+
+  \indexspace
+
+  \item {BST}, 2
+    \subitem {addLeaf}, 2
+    \subitem {addLeafPrivate}, 3
+    \subitem {BST}, 2
+    \subitem {count}, 3
+    \subitem {countPrivate}, 3
+    \subitem {createLeaf}, 3
+    \subitem {find}, 3
+    \subitem {findPrivate}, 3
+    \subitem {findsmallest}, 3
+    \subitem {findsmallestPrivate}, 3
+    \subitem {printPreOrder}, 3
+    \subitem {printPreOrderPrivate}, 4
+    \subitem {removeMatch}, 4
+    \subitem {removeNode}, 4
+    \subitem {removeNodePrivate}, 4
+    \subitem {removeRootMatch}, 4
+    \subitem {root}, 4
+    \subitem {searchKey}, 4
+    \subitem {searchKeyPrivate}, 4
+  \item {BST.cpp}, 5
+  \item {BST.h}, 6
+  \item {BST::node}, 5
+    \subitem {key}, 5
+    \subitem {left}, 5
+    \subitem {right}, 5
+
+  \indexspace
+
+  \item {clearScreen}
+    \subitem {driver.cpp}, 6
+  \item {count}
+    \subitem {BST}, 3
+  \item {countPrivate}
+    \subitem {BST}, 3
+  \item {createLeaf}
+    \subitem {BST}, 3
+
+  \indexspace
+
+  \item {driver.cpp}, 6
+    \subitem {clearScreen}, 6
+    \subitem {main}, 6
+    \subitem {menu}, 6
+    \subitem {pauseScreen}, 6
+
+  \indexspace
+
+  \item {find}
+    \subitem {BST}, 3
+  \item {findPrivate}
+    \subitem {BST}, 3
+  \item {findsmallest}
+    \subitem {BST}, 3
+  \item {findsmallestPrivate}
+    \subitem {BST}, 3
+
+  \indexspace
+
+  \item {key}
+    \subitem {BST::node}, 5
+
+  \indexspace
+
+  \item {left}
+    \subitem {BST::node}, 5
+
+  \indexspace
+
+  \item {main}
+    \subitem {driver.cpp}, 6
+  \item {menu}
+    \subitem {driver.cpp}, 6
+
+  \indexspace
+
+  \item {pauseScreen}
+    \subitem {driver.cpp}, 6
+  \item {printPreOrder}
+    \subitem {BST}, 3
+  \item {printPreOrderPrivate}
+    \subitem {BST}, 4
+
+  \indexspace
+
+  \item {removeMatch}
+    \subitem {BST}, 4
+  \item {removeNode}
+    \subitem {BST}, 4
+  \item {removeNodePrivate}
+    \subitem {BST}, 4
+  \item {removeRootMatch}
+    \subitem {BST}, 4
+  \item {right}
+    \subitem {BST::node}, 5
+  \item {root}
+    \subitem {BST}, 4
+
+  \indexspace
+
+  \item {searchKey}
+    \subitem {BST}, 4
+  \item {searchKeyPrivate}
+    \subitem {BST}, 4
+
+\end{theindex}

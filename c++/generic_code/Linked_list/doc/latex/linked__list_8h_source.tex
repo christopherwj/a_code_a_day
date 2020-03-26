@@ -1,0 +1,37 @@
+\doxysubsection{linked\+\_\+list.\+h}
+\label{linked__list_8h_source}\index{linked\_list.h@{linked\_list.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{00002 \textcolor{preprocessor}{\#include <cstdlib>}}
+\DoxyCodeLine{00003 \textcolor{preprocessor}{\#include <cstdlib>}}
+\DoxyCodeLine{00004 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{00005 \textcolor{preprocessor}{\#include <stdlib.h>}}
+\DoxyCodeLine{00006 \textcolor{preprocessor}{\#include "node.h"}}
+\DoxyCodeLine{00007 }
+\DoxyCodeLine{00008 }
+\DoxyCodeLine{00009 }
+\DoxyCodeLine{00010 }
+\DoxyCodeLine{00011 \textcolor{keyword}{class }linked\_list    \textcolor{comment}{//this class helps to build a linked list with the helper/supprting class node}}
+\DoxyCodeLine{00012 \{}
+\DoxyCodeLine{00013 }
+\DoxyCodeLine{00014 \textcolor{keyword}{private}:}
+\DoxyCodeLine{00015 }
+\DoxyCodeLine{00016         Node* head = NULL; \textcolor{comment}{// used to keep track of the head (first node) of the linked list}}
+\DoxyCodeLine{00017         Node* tail = NULL;  \textcolor{comment}{//used for being able to tell the end of the list}}
+\DoxyCodeLine{00018         Node* temp = NULL;      \textcolor{comment}{//used as a walking stick to traverse the list}}
+\DoxyCodeLine{00019         \textcolor{keywordtype}{int} length = 0;}
+\DoxyCodeLine{00020 }
+\DoxyCodeLine{00021 \textcolor{keyword}{public}:}
+\DoxyCodeLine{00022         linked\_list(\textcolor{keywordtype}{void}); \textcolor{comment}{//creates an empty LinkedList}}
+\DoxyCodeLine{00023         \textcolor{keywordtype}{void} insert(\textcolor{keywordtype}{int} x); \textcolor{comment}{// insert a node into the linked list}}
+\DoxyCodeLine{00024         \textcolor{keywordtype}{bool} Empty(); \textcolor{comment}{// return true if the LinkedList is empty, otherwise return false }}
+\DoxyCodeLine{00025         \textcolor{keywordtype}{void} InsertAtEnd(\textcolor{keywordtype}{int} x); \textcolor{comment}{//insert a value x on the end of the LinkedList }}
+\DoxyCodeLine{00026         \textcolor{keywordtype}{void} Delete(\textcolor{keywordtype}{int} x); \textcolor{comment}{//if value x is in the LinkedList, remove x }}
+\DoxyCodeLine{00027         \textcolor{keywordtype}{void} Display(); \textcolor{comment}{//Display the data values in the LinkedList in the order inserted }}
+\DoxyCodeLine{00028         \textcolor{keywordtype}{int} Sum(); \textcolor{comment}{// Compute and return the sum of the values in the LinkedList}}
+\DoxyCodeLine{00029         \textcolor{keywordtype}{int} Average(); \textcolor{comment}{// Compute and return the average of the values in the LinkedList }}
+\DoxyCodeLine{00030         \string~linked\_list(); \textcolor{comment}{// destructor to remove all elements from the LinkedList.}}
+\DoxyCodeLine{00031 \};}
+
+\end{DoxyCode}

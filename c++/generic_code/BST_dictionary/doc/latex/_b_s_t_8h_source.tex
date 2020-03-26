@@ -1,0 +1,30 @@
+\doxysubsection{B\+S\+T.\+h}
+\label{_b_s_t_8h_source}\index{BST.h@{BST.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001 \textcolor{preprocessor}{\#ifndef BST\_H}}
+\DoxyCodeLine{00002 \textcolor{preprocessor}{\#define BST\_H}}
+\DoxyCodeLine{00003 }
+\DoxyCodeLine{00004 \textcolor{keyword}{class }BST\{}
+\DoxyCodeLine{00005 }
+\DoxyCodeLine{00006 \textcolor{keyword}{private}:}
+\DoxyCodeLine{00007         \textcolor{keyword}{struct }Node\{}
+\DoxyCodeLine{00008                 \textcolor{keywordtype}{char} *word;}
+\DoxyCodeLine{00009                 \textcolor{keywordtype}{char} *def; \textcolor{comment}{//change to word after compile }}
+\DoxyCodeLine{00010                 Node *left;}
+\DoxyCodeLine{00011                 Node *right;}
+\DoxyCodeLine{00012         \};}
+\DoxyCodeLine{00013 }
+\DoxyCodeLine{00014         Node *root;}
+\DoxyCodeLine{00015         Node *createLeaf(\textcolor{keywordtype}{char}*, \textcolor{keywordtype}{char}*);}
+\DoxyCodeLine{00016 \textcolor{keyword}{public}:}
+\DoxyCodeLine{00017         BST();}
+\DoxyCodeLine{00018         \textcolor{keywordtype}{int} addLeaf(\textcolor{keywordtype}{char}*, \textcolor{keywordtype}{char}*, Node*);}
+\DoxyCodeLine{00019         \textcolor{keywordtype}{char}** findLeaf(\textcolor{keywordtype}{char}*, Node*);}
+\DoxyCodeLine{00020         Node* getRoot(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00021         \textcolor{keywordtype}{void} printInOrder(Node*);}
+\DoxyCodeLine{00022 \};}
+\DoxyCodeLine{00023 }
+\DoxyCodeLine{00024 \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

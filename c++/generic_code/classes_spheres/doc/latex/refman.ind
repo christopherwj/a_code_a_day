@@ -1,0 +1,57 @@
+\begin{theindex}
+
+  \item {display}
+    \subitem {Sphere}, 2
+  \item {driver.cpp}, 3
+    \subitem {main}, 3
+    \subitem {operator$<$$<$}, 4
+
+  \indexspace
+
+  \item {getArea}
+    \subitem {Sphere}, 2
+  \item {getCircumference}
+    \subitem {Sphere}, 2
+  \item {getDiameter}
+    \subitem {Sphere}, 2
+  \item {getRadius}
+    \subitem {Sphere}, 3
+  \item {getVolume}
+    \subitem {Sphere}, 3
+
+  \indexspace
+
+  \item {M\_PI}
+    \subitem {sphere.cpp}, 4
+  \item {main}
+    \subitem {driver.cpp}, 3
+
+  \indexspace
+
+  \item {operator$<$$<$}
+    \subitem {driver.cpp}, 4
+
+  \indexspace
+
+  \item {radius}
+    \subitem {Sphere}, 3
+
+  \indexspace
+
+  \item {setRadius}
+    \subitem {Sphere}, 3
+  \item {Sphere}, 1
+    \subitem {display}, 2
+    \subitem {getArea}, 2
+    \subitem {getCircumference}, 2
+    \subitem {getDiameter}, 2
+    \subitem {getRadius}, 3
+    \subitem {getVolume}, 3
+    \subitem {radius}, 3
+    \subitem {setRadius}, 3
+    \subitem {Sphere}, 2
+  \item {sphere.cpp}, 4
+    \subitem {M\_PI}, 4
+  \item {sphere.h}, 4
+
+\end{theindex}

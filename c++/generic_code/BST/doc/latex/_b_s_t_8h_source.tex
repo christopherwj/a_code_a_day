@@ -1,0 +1,43 @@
+\doxysubsection{B\+S\+T.\+h}
+\label{_b_s_t_8h_source}\index{BST.h@{BST.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{00002 }
+\DoxyCodeLine{00003 \textcolor{keyword}{class }BST}
+\DoxyCodeLine{00004 \{}
+\DoxyCodeLine{00005 }
+\DoxyCodeLine{00006 \textcolor{keyword}{private}:}
+\DoxyCodeLine{00007         \textcolor{keyword}{struct }node}
+\DoxyCodeLine{00008         \{}
+\DoxyCodeLine{00009                 \textcolor{keywordtype}{char} key;}
+\DoxyCodeLine{00010                 node* left = NULL;}
+\DoxyCodeLine{00011                 node* right = NULL;}
+\DoxyCodeLine{00012         \};}
+\DoxyCodeLine{00013 }
+\DoxyCodeLine{00014         node* root;}
+\DoxyCodeLine{00015         \textcolor{keywordtype}{void} addLeafPrivate(\textcolor{keywordtype}{int} key, node* Ptr);}
+\DoxyCodeLine{00016         \textcolor{keywordtype}{void} printPreOrderPrivate(node* Ptr);}
+\DoxyCodeLine{00017         \textcolor{keywordtype}{void} searchKeyPrivate(\textcolor{keywordtype}{char} key, node* Ptr);}
+\DoxyCodeLine{00018         \textcolor{keywordtype}{void} removeNodePrivate(\textcolor{keywordtype}{int} key, node* parent);}
+\DoxyCodeLine{00019         \textcolor{keywordtype}{void} removeRootMatch();}
+\DoxyCodeLine{00020         \textcolor{keywordtype}{int} findsmallestPrivate(node* Ptr);}
+\DoxyCodeLine{00021         \textcolor{keywordtype}{void} removeMatch(node* parent, node* match, \textcolor{keywordtype}{bool} left);}
+\DoxyCodeLine{00022         \textcolor{keywordtype}{int} countPrivate(node* Ptr, \textcolor{keywordtype}{int} \&count);}
+\DoxyCodeLine{00023         node* createLeaf(\textcolor{keywordtype}{char} key);}
+\DoxyCodeLine{00024         \textcolor{keywordtype}{void} findPrivate(node* Ptr, \textcolor{keywordtype}{char} key);}
+\DoxyCodeLine{00025 }
+\DoxyCodeLine{00026 \textcolor{keyword}{public}:}
+\DoxyCodeLine{00027         BST();}
+\DoxyCodeLine{00028         \textcolor{keywordtype}{void} addLeaf(\textcolor{keywordtype}{char} key);}
+\DoxyCodeLine{00029         \textcolor{keywordtype}{void} printPreOrder();}
+\DoxyCodeLine{00030         \textcolor{keywordtype}{void} searchKey(\textcolor{keywordtype}{int} key);}
+\DoxyCodeLine{00031         \textcolor{keywordtype}{void} removeNode(\textcolor{keywordtype}{int} key);}
+\DoxyCodeLine{00032         \textcolor{keywordtype}{int} findsmallest();}
+\DoxyCodeLine{00033         \textcolor{keywordtype}{int} count();}
+\DoxyCodeLine{00034         \textcolor{keywordtype}{void} find(\textcolor{keywordtype}{char} keyToFind);}
+\DoxyCodeLine{00035 }
+\DoxyCodeLine{00036 }
+\DoxyCodeLine{00037 \};}
+
+\end{DoxyCode}

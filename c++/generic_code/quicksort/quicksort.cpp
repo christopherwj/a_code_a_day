@@ -3,15 +3,6 @@
 using namespace std;
 
 
-/*
-DISCLAIMER: This code is not my own work and is directly interpreted from: 
-https://www.geeksforgeeks.org/quick-sort/
-
-I do not claim credit for the code listed below:
-*/
-
-
-
 
 void swap(int* a, int* b) 
 {
