@@ -1,0 +1,85 @@
+\begin{theindex}
+
+  \item {baseSalary}
+    \subitem {Employee}, 4
+
+  \indexspace
+
+  \item {Chef}, 2
+    \subitem {Chef}, 3
+    \subitem {cuisine}, 3
+    \subitem {print}, 3
+  \item {cuisine}
+    \subitem {Chef}, 3
+
+  \indexspace
+
+  \item {driver.cpp}, 7
+    \subitem {main}, 7
+
+  \indexspace
+
+  \item {Employee}, 3
+    \subitem {baseSalary}, 4
+    \subitem {employeeID}, 4
+    \subitem {employeeType}, 4
+    \subitem {name}, 4
+    \subitem {print}, 4
+    \subitem {restaurantProfit}, 4
+    \subitem {salary}, 4
+  \item {employee.cpp}, 7
+  \item {employeeID}
+    \subitem {Employee}, 4
+  \item {employeeType}
+    \subitem {Employee}, 4
+  \item {experience}
+    \subitem {Waiter}, 6
+
+  \indexspace
+
+  \item {main}
+    \subitem {driver.cpp}, 7
+
+  \indexspace
+
+  \item {name}
+    \subitem {Employee}, 4
+
+  \indexspace
+
+  \item {Owner}, 5
+    \subitem {Owner}, 5
+    \subitem {print}, 5
+
+  \indexspace
+
+  \item {print}
+    \subitem {Chef}, 3
+    \subitem {Employee}, 4
+    \subitem {Owner}, 5
+    \subitem {Waiter}, 6
+
+  \indexspace
+
+  \item {restaurantProfit}
+    \subitem {Employee}, 4
+
+  \indexspace
+
+  \item {salary}
+    \subitem {Employee}, 4
+
+  \indexspace
+
+  \item {tips}
+    \subitem {Waiter}, 7
+
+  \indexspace
+
+  \item {Waiter}, 6
+    \subitem {experience}, 6
+    \subitem {print}, 6
+    \subitem {tips}, 7
+    \subitem {Waiter}, 6
+
+\end{theindex}
