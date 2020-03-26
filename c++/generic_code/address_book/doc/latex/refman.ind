@@ -1,48 +1,50 @@
 \begin{theindex}
 
   \item {$\sim$AddressBook}
-    \subitem {AddressBook}, 2
+    \subitem {AddressBook}, 3
 
   \indexspace
 
   \item {a}
-    \subitem {main.h}, 7
+    \subitem {main.h}, 10
   \item {addContact}
     \subitem {AddressBook}, 3
   \item {address}
-    \subitem {Contact}, 5
+    \subitem {Contact}, 7
   \item {AddressBook}, 2
-    \subitem {$\sim$AddressBook}, 2
+    \subitem {$\sim$AddressBook}, 3
     \subitem {addContact}, 3
-    \subitem {AddressBook}, 2
-    \subitem {currentPosition}, 3
+    \subitem {AddressBook}, 3
+    \subitem {currentPosition}, 5
     \subitem {deleteContact}, 3
     \subitem {editContact}, 3
-    \subitem {findContact}, 3
-    \subitem {getCurrent}, 3
-    \subitem {head}, 4
-    \subitem {makeEmpty}, 3
-    \subitem {printContact}, 3
-    \subitem {tail}, 4
-  \item {addressbook.cpp}, 5
-  \item {addressbook.h}, 6
+    \subitem {findContact}, 4
+    \subitem {getCurrent}, 4
+    \subitem {head}, 5
+    \subitem {makeEmpty}, 4
+    \subitem {printContact}, 5
+    \subitem {tail}, 5
+  \item {addressbook}, 5
+  \item {addressbook.cpp}, 8
+  \item {addressbook.h}, 8
 
   \indexspace
 
   \item {clearScreen}
-    \subitem {main.cpp}, 6
-    \subitem {main.h}, 7
-  \item {Contact}, 4
-    \subitem {address}, 5
-    \subitem {Contact}, 4, 5
-    \subitem {firstName}, 5
-    \subitem {lastName}, 5
-    \subitem {next}, 5
-    \subitem {phoneNumber}, 5
-  \item {contact.cpp}, 6
-  \item {contact.h}, 6
+    \subitem {main.cpp}, 9
+    \subitem {main.h}, 10
+  \item {Contact}, 6
+    \subitem {address}, 7
+    \subitem {Contact}, 6, 7
+    \subitem {firstName}, 7
+    \subitem {lastName}, 7
+    \subitem {next}, 8
+    \subitem {phoneNumber}, 8
+  \item {contact}, 6
+  \item {contact.cpp}, 8
+  \item {contact.h}, 8
   \item {currentPosition}
-    \subitem {AddressBook}, 3
+    \subitem {AddressBook}, 5
 
   \indexspace
 
@@ -57,65 +59,65 @@
   \indexspace
 
   \item {findContact}
-    \subitem {AddressBook}, 3
+    \subitem {AddressBook}, 4
   \item {firstName}
-    \subitem {Contact}, 5
+    \subitem {Contact}, 7
 
   \indexspace
 
   \item {getCurrent}
-    \subitem {AddressBook}, 3
+    \subitem {AddressBook}, 4
 
   \indexspace
 
   \item {head}
-    \subitem {AddressBook}, 4
+    \subitem {AddressBook}, 5
 
   \indexspace
 
   \item {lastName}
-    \subitem {Contact}, 5
+    \subitem {Contact}, 7
 
   \indexspace
 
   \item {main}
-    \subitem {main.cpp}, 6
-    \subitem {main.h}, 7
-  \item {main.cpp}, 6
-    \subitem {clearScreen}, 6
-    \subitem {main}, 6
-    \subitem {menu}, 7
-    \subitem {pauseScreen}, 7
-  \item {main.h}, 7
-    \subitem {a}, 7
-    \subitem {clearScreen}, 7
-    \subitem {main}, 7
-    \subitem {menu}, 7
-    \subitem {pauseScreen}, 7
+    \subitem {main.cpp}, 9
+    \subitem {main.h}, 10
+  \item {main.cpp}, 9
+    \subitem {clearScreen}, 9
+    \subitem {main}, 9
+    \subitem {menu}, 9
+    \subitem {pauseScreen}, 9
+  \item {main.h}, 9
+    \subitem {a}, 10
+    \subitem {clearScreen}, 10
+    \subitem {main}, 10
+    \subitem {menu}, 10
+    \subitem {pauseScreen}, 10
   \item {makeEmpty}
-    \subitem {AddressBook}, 3
+    \subitem {AddressBook}, 4
   \item {menu}
-    \subitem {main.cpp}, 7
-    \subitem {main.h}, 7
+    \subitem {main.cpp}, 9
+    \subitem {main.h}, 10
 
   \indexspace
 
   \item {next}
-    \subitem {Contact}, 5
+    \subitem {Contact}, 8
 
   \indexspace
 
   \item {pauseScreen}
-    \subitem {main.cpp}, 7
-    \subitem {main.h}, 7
+    \subitem {main.cpp}, 9
+    \subitem {main.h}, 10
   \item {phoneNumber}
-    \subitem {Contact}, 5
+    \subitem {Contact}, 8
   \item {printContact}
-    \subitem {AddressBook}, 3
+    \subitem {AddressBook}, 5
 
   \indexspace
 
   \item {tail}
-    \subitem {AddressBook}, 4
+    \subitem {AddressBook}, 5
 
 \end{theindex}

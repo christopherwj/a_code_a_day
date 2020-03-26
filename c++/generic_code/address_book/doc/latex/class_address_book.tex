@@ -10,21 +10,21 @@
 \textbf{ Address\+Book} ()
 \item 
 void \textbf{ add\+Contact} (\textbf{ Contact})
-\item 
+\begin{DoxyCompactList}\small\item\em Adds a contact. \end{DoxyCompactList}\item 
 bool \textbf{ delete\+Contact} (\textbf{ Contact})
-\item 
+\begin{DoxyCompactList}\small\item\em deletes a contact \end{DoxyCompactList}\item 
 int \textbf{ find\+Contact} (std\+::string first\+Name)
-\item 
+\begin{DoxyCompactList}\small\item\em Finds a contact. \end{DoxyCompactList}\item 
 int \textbf{ find\+Contact} (\textbf{ Contact})
-\item 
+\begin{DoxyCompactList}\small\item\em Finds a contact. \end{DoxyCompactList}\item 
 bool \textbf{ edit\+Contact} (std\+::string first\+Name)
-\item 
+\begin{DoxyCompactList}\small\item\em Adds a contact. \end{DoxyCompactList}\item 
 void \textbf{ get\+Current} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Gets the current contact. \end{DoxyCompactList}\item 
 void \textbf{ make\+Empty} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Makes address book empty. \end{DoxyCompactList}\item 
 void \textbf{ print\+Contact} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Prints a contact. \end{DoxyCompactList}\item 
 \textbf{ $\sim$\+Address\+Book} ()
 \end{DoxyCompactItemize}
 \doxysubsubsection*{Private Attributes}
@@ -60,35 +60,93 @@ void \textbf{ print\+Contact} ()
 \doxyparagraph{addContact()}
 {\footnotesize\ttfamily void Address\+Book\+::add\+Contact (\begin{DoxyParamCaption}\item[{\textbf{ Contact}}]{new\+Contact }\end{DoxyParamCaption})}
 
+
+
+Adds a contact. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em new\+Contact} & The new contact \\
+\hline
+\end{DoxyParams}
 \mbox{\label{class_address_book_a12d8f1663aa709e62369cc9dd1e466d9}} 
 \index{AddressBook@{AddressBook}!deleteContact@{deleteContact}}
 \index{deleteContact@{deleteContact}!AddressBook@{AddressBook}}
 \doxyparagraph{deleteContact()}
 {\footnotesize\ttfamily bool Address\+Book\+::delete\+Contact (\begin{DoxyParamCaption}\item[{\textbf{ Contact}}]{to\+Delete }\end{DoxyParamCaption})}
 
+
+
+deletes a contact 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em to\+Delete} & contact to delete\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns 0 on completion 
+\end{DoxyReturn}
 \mbox{\label{class_address_book_a3ede3ffccd6f7df64d18ec24f7f07621}} 
 \index{AddressBook@{AddressBook}!editContact@{editContact}}
 \index{editContact@{editContact}!AddressBook@{AddressBook}}
 \doxyparagraph{editContact()}
 {\footnotesize\ttfamily bool Address\+Book\+::edit\+Contact (\begin{DoxyParamCaption}\item[{std\+::string}]{first\+Name }\end{DoxyParamCaption})}
 
+
+
+Adds a contact. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em first\+Name} & The first name of the contact to add.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns false on failure 
+\end{DoxyReturn}
 \mbox{\label{class_address_book_a7a2ed18828b88a3f27396f3eb877c01b}} 
 \index{AddressBook@{AddressBook}!findContact@{findContact}}
 \index{findContact@{findContact}!AddressBook@{AddressBook}}
 \doxyparagraph{findContact()\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
 {\footnotesize\ttfamily int Address\+Book\+::find\+Contact (\begin{DoxyParamCaption}\item[{\textbf{ Contact}}]{compare }\end{DoxyParamCaption})}
 
+
+
+Finds a contact. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em compare} & The contact to find \\
+\hline
+\end{DoxyParams}
 \mbox{\label{class_address_book_a5171a2435e28dc7976865e54dffb7b46}} 
 \index{AddressBook@{AddressBook}!findContact@{findContact}}
 \index{findContact@{findContact}!AddressBook@{AddressBook}}
 \doxyparagraph{findContact()\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
 {\footnotesize\ttfamily int Address\+Book\+::find\+Contact (\begin{DoxyParamCaption}\item[{std\+::string}]{first\+Name }\end{DoxyParamCaption})}
 
+
+
+Finds a contact. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em first\+Name} & The first name to find\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+return one on success 
+\end{DoxyReturn}
 \mbox{\label{class_address_book_aee6d467fd0ee012fc2325a0f40f0b5de}} 
 \index{AddressBook@{AddressBook}!getCurrent@{getCurrent}}
 \index{getCurrent@{getCurrent}!AddressBook@{AddressBook}}
 \doxyparagraph{getCurrent()}
 {\footnotesize\ttfamily void Address\+Book\+::get\+Current (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the current contact. 
 
 \mbox{\label{class_address_book_a885d75d67cff850ab70b654045a51ea9}} 
 \index{AddressBook@{AddressBook}!makeEmpty@{makeEmpty}}
@@ -96,11 +154,19 @@ void \textbf{ print\+Contact} ()
 \doxyparagraph{makeEmpty()}
 {\footnotesize\ttfamily void Address\+Book\+::make\+Empty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
+
+
+Makes address book empty. 
+
 \mbox{\label{class_address_book_a29b84f510e4596ad3e3ace007fb1a2f3}} 
 \index{AddressBook@{AddressBook}!printContact@{printContact}}
 \index{printContact@{printContact}!AddressBook@{AddressBook}}
 \doxyparagraph{printContact()}
 {\footnotesize\ttfamily void Address\+Book\+::print\+Contact (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Prints a contact. 
 
 
 
