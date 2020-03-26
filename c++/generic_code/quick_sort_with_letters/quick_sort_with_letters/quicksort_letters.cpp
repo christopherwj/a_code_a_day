@@ -3,12 +3,7 @@
 using namespace std;
 
 
-/*
-DISCLAIMER: This code is not my own work and is interpreted from:
-https://www.geeksforgeeks.org/quick-sort/
-
-I do not claim credit for the code listed below:
-*/
+/
 
 
 
@@ -43,6 +38,7 @@ char partition(char arr[], char low, char high)
 arr[] --> Array to be sorted,
 low --> Starting index,
 high --> Ending index */
+
 void quickSort(char arr[], char low, char high)
 {
 	if (low < high)
