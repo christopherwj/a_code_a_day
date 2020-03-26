@@ -5,40 +5,41 @@
 \contentsline {subsection}{\numberline {2.1}File List}{1}
 \contentsline {section}{\numberline {3}Class Documentation}{2}
 \contentsline {subsection}{\numberline {3.1}B\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}ST Class Reference}{2}
-\contentsline {subsubsection}{\numberline {3.1.1}Constructor \& Destructor Documentation}{2}
-\contentsline {paragraph}{\numberline {3.1.1.1}BST()}{2}
-\contentsline {subsubsection}{\numberline {3.1.2}Member Function Documentation}{2}
-\contentsline {paragraph}{\numberline {3.1.2.1}addLeaf()}{3}
-\contentsline {paragraph}{\numberline {3.1.2.2}addLeafPrivate()}{3}
-\contentsline {paragraph}{\numberline {3.1.2.3}count()}{3}
-\contentsline {paragraph}{\numberline {3.1.2.4}countPrivate()}{3}
-\contentsline {paragraph}{\numberline {3.1.2.5}createLeaf()}{3}
-\contentsline {paragraph}{\numberline {3.1.2.6}find()}{3}
-\contentsline {paragraph}{\numberline {3.1.2.7}findPrivate()}{3}
-\contentsline {paragraph}{\numberline {3.1.2.8}findsmallest()}{3}
-\contentsline {paragraph}{\numberline {3.1.2.9}findsmallestPrivate()}{3}
-\contentsline {paragraph}{\numberline {3.1.2.10}printPreOrder()}{4}
-\contentsline {paragraph}{\numberline {3.1.2.11}printPreOrderPrivate()}{4}
-\contentsline {paragraph}{\numberline {3.1.2.12}removeMatch()}{4}
-\contentsline {paragraph}{\numberline {3.1.2.13}removeNode()}{4}
-\contentsline {paragraph}{\numberline {3.1.2.14}removeNodePrivate()}{4}
-\contentsline {paragraph}{\numberline {3.1.2.15}removeRootMatch()}{4}
-\contentsline {paragraph}{\numberline {3.1.2.16}searchKey()}{4}
-\contentsline {paragraph}{\numberline {3.1.2.17}searchKeyPrivate()}{4}
-\contentsline {subsubsection}{\numberline {3.1.3}Member Data Documentation}{4}
-\contentsline {paragraph}{\numberline {3.1.3.1}root}{5}
-\contentsline {subsection}{\numberline {3.2}B\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}ST\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}::node Struct Reference}{5}
-\contentsline {subsubsection}{\numberline {3.2.1}Member Data Documentation}{5}
-\contentsline {paragraph}{\numberline {3.2.1.1}key}{5}
-\contentsline {paragraph}{\numberline {3.2.1.2}left}{5}
-\contentsline {paragraph}{\numberline {3.2.1.3}right}{5}
-\contentsline {section}{\numberline {4}File Documentation}{5}
-\contentsline {subsection}{\numberline {4.1}B\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}S\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}T.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp File Reference}{5}
-\contentsline {subsection}{\numberline {4.2}B\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}S\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}T.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}h File Reference}{6}
-\contentsline {subsection}{\numberline {4.3}driver.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp File Reference}{6}
-\contentsline {subsubsection}{\numberline {4.3.1}Function Documentation}{6}
-\contentsline {paragraph}{\numberline {4.3.1.1}clearScreen()}{6}
-\contentsline {paragraph}{\numberline {4.3.1.2}main()}{6}
-\contentsline {paragraph}{\numberline {4.3.1.3}menu()}{6}
-\contentsline {paragraph}{\numberline {4.3.1.4}pauseScreen()}{6}
-\contentsline {section}{Index}{7}
+\contentsline {subsubsection}{\numberline {3.1.1}Detailed Description}{3}
+\contentsline {subsubsection}{\numberline {3.1.2}Constructor \& Destructor Documentation}{3}
+\contentsline {paragraph}{\numberline {3.1.2.1}BST()}{3}
+\contentsline {subsubsection}{\numberline {3.1.3}Member Function Documentation}{3}
+\contentsline {paragraph}{\numberline {3.1.3.1}addLeaf()}{3}
+\contentsline {paragraph}{\numberline {3.1.3.2}addLeafPrivate()}{3}
+\contentsline {paragraph}{\numberline {3.1.3.3}count()}{3}
+\contentsline {paragraph}{\numberline {3.1.3.4}countPrivate()}{4}
+\contentsline {paragraph}{\numberline {3.1.3.5}createLeaf()}{4}
+\contentsline {paragraph}{\numberline {3.1.3.6}find()}{4}
+\contentsline {paragraph}{\numberline {3.1.3.7}findPrivate()}{5}
+\contentsline {paragraph}{\numberline {3.1.3.8}findsmallest()}{5}
+\contentsline {paragraph}{\numberline {3.1.3.9}findsmallestPrivate()}{5}
+\contentsline {paragraph}{\numberline {3.1.3.10}printPreOrder()}{5}
+\contentsline {paragraph}{\numberline {3.1.3.11}printPreOrderPrivate()}{5}
+\contentsline {paragraph}{\numberline {3.1.3.12}removeMatch()}{6}
+\contentsline {paragraph}{\numberline {3.1.3.13}removeNode()}{6}
+\contentsline {paragraph}{\numberline {3.1.3.14}removeNodePrivate()}{6}
+\contentsline {paragraph}{\numberline {3.1.3.15}removeRootMatch()}{6}
+\contentsline {paragraph}{\numberline {3.1.3.16}searchKey()}{7}
+\contentsline {paragraph}{\numberline {3.1.3.17}searchKeyPrivate()}{7}
+\contentsline {subsubsection}{\numberline {3.1.4}Member Data Documentation}{7}
+\contentsline {paragraph}{\numberline {3.1.4.1}root}{7}
+\contentsline {subsection}{\numberline {3.2}B\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}ST\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}::node Struct Reference}{7}
+\contentsline {subsubsection}{\numberline {3.2.1}Member Data Documentation}{7}
+\contentsline {paragraph}{\numberline {3.2.1.1}key}{7}
+\contentsline {paragraph}{\numberline {3.2.1.2}left}{7}
+\contentsline {paragraph}{\numberline {3.2.1.3}right}{8}
+\contentsline {section}{\numberline {4}File Documentation}{8}
+\contentsline {subsection}{\numberline {4.1}B\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}S\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}T.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp File Reference}{8}
+\contentsline {subsection}{\numberline {4.2}B\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}S\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}T.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}h File Reference}{8}
+\contentsline {subsection}{\numberline {4.3}driver.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp File Reference}{8}
+\contentsline {subsubsection}{\numberline {4.3.1}Function Documentation}{8}
+\contentsline {paragraph}{\numberline {4.3.1.1}clearScreen()}{9}
+\contentsline {paragraph}{\numberline {4.3.1.2}main()}{9}
+\contentsline {paragraph}{\numberline {4.3.1.3}menu()}{9}
+\contentsline {paragraph}{\numberline {4.3.1.4}pauseScreen()}{9}
+\contentsline {section}{Index}{11}

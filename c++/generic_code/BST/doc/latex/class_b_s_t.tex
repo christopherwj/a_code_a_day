@@ -2,6 +2,11 @@
 \label{class_b_s_t}\index{BST@{BST}}
 
 
+\doxyref{B\+ST}{p.}{class_b_s_t} class to traverse nodes and delete or re-\/organize Class that builds and navigates a binary search tree.  
+
+
+
+
 {\ttfamily \#include $<$B\+S\+T.\+h$>$}
 
 \doxysubsubsection*{Classes}
@@ -15,48 +20,51 @@ struct \textbf{ node}
 \textbf{ B\+ST} ()
 \item 
 void \textbf{ add\+Leaf} (char key)
-\item 
+\begin{DoxyCompactList}\small\item\em Adds a leaf. \end{DoxyCompactList}\item 
 void \textbf{ print\+Pre\+Order} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Prints the \doxyref{B\+ST}{p.}{class_b_s_t} in Pre-\/\+Order. \end{DoxyCompactList}\item 
 void \textbf{ search\+Key} (int key)
-\item 
+\begin{DoxyCompactList}\small\item\em Searches tree for a given value. \end{DoxyCompactList}\item 
 void \textbf{ remove\+Node} (int key)
-\item 
+\begin{DoxyCompactList}\small\item\em Removes a node with a provided key This is really a helper function for remove\+Node\+Private. \end{DoxyCompactList}\item 
 int \textbf{ findsmallest} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Helper function for findsmallest\+Private. \end{DoxyCompactList}\item 
 int \textbf{ count} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Counts how many leafs are in tree helper function. \end{DoxyCompactList}\item 
 void \textbf{ find} (char key\+To\+Find)
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Searches for the first match. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsubsection*{Private Member Functions}
 \begin{DoxyCompactItemize}
 \item 
 void \textbf{ add\+Leaf\+Private} (int key, \textbf{ node} $\ast$Ptr)
-\item 
+\begin{DoxyCompactList}\small\item\em Adds a leaf private. \end{DoxyCompactList}\item 
 void \textbf{ print\+Pre\+Order\+Private} (\textbf{ node} $\ast$Ptr)
-\item 
+\begin{DoxyCompactList}\small\item\em Prints the values of the \doxyref{B\+ST}{p.}{class_b_s_t}\textquotesingle{}s private members. \end{DoxyCompactList}\item 
 void \textbf{ search\+Key\+Private} (char key, \textbf{ node} $\ast$Ptr)
 \item 
 void \textbf{ remove\+Node\+Private} (int key, \textbf{ node} $\ast$parent)
-\item 
+\begin{DoxyCompactList}\small\item\em Removes a node\textquotesingle{}s private key value. \end{DoxyCompactList}\item 
 void \textbf{ remove\+Root\+Match} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Removes a root match. \end{DoxyCompactList}\item 
 int \textbf{ findsmallest\+Private} (\textbf{ node} $\ast$Ptr)
-\item 
+\begin{DoxyCompactList}\small\item\em Finds the smallest node. \end{DoxyCompactList}\item 
 void \textbf{ remove\+Match} (\textbf{ node} $\ast$parent, \textbf{ node} $\ast$match, bool left)
-\item 
+\begin{DoxyCompactList}\small\item\em Removes a match. \end{DoxyCompactList}\item 
 int \textbf{ count\+Private} (\textbf{ node} $\ast$Ptr, int \&\textbf{ count})
-\item 
+\begin{DoxyCompactList}\small\item\em Counts the number of all leafs. \end{DoxyCompactList}\item 
 \textbf{ node} $\ast$ \textbf{ create\+Leaf} (char key)
-\item 
+\begin{DoxyCompactList}\small\item\em Adds a leaf to the \doxyref{B\+ST}{p.}{class_b_s_t}. \end{DoxyCompactList}\item 
 void \textbf{ find\+Private} (\textbf{ node} $\ast$Ptr, char key)
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Finds a private. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsubsection*{Private Attributes}
 \begin{DoxyCompactItemize}
 \item 
 \textbf{ node} $\ast$ \textbf{ root}
 \end{DoxyCompactItemize}
 
+
+\doxysubsubsection{Detailed Description}
+\doxyref{B\+ST}{p.}{class_b_s_t} class to traverse nodes and delete or re-\/organize Class that builds and navigates a binary search tree. 
 
 \doxysubsubsection{Constructor \& Destructor Documentation}
 \mbox{\label{class_b_s_t_abc17123a0367c3b8ad0382eeb3ad3178}} 
@@ -74,59 +82,155 @@ void \textbf{ find\+Private} (\textbf{ node} $\ast$Ptr, char key)
 \doxyparagraph{addLeaf()}
 {\footnotesize\ttfamily void B\+S\+T\+::add\+Leaf (\begin{DoxyParamCaption}\item[{char}]{key }\end{DoxyParamCaption})}
 
+
+
+Adds a leaf. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em key} & The key/value to add \\
+\hline
+\end{DoxyParams}
 \mbox{\label{class_b_s_t_a19a8b86e4c4ce9b1722b981323d20791}} 
 \index{BST@{BST}!addLeafPrivate@{addLeafPrivate}}
 \index{addLeafPrivate@{addLeafPrivate}!BST@{BST}}
 \doxyparagraph{addLeafPrivate()}
 {\footnotesize\ttfamily void B\+S\+T\+::add\+Leaf\+Private (\begin{DoxyParamCaption}\item[{int}]{key,  }\item[{\textbf{ node} $\ast$}]{Ptr }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
 
+
+
+Adds a leaf private. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em key} & The key to be added \\
+\hline
+ & {\em Ptr} & The node pointer \\
+\hline
+\end{DoxyParams}
 \mbox{\label{class_b_s_t_aef4669f9b88623322106ede73853dd84}} 
 \index{BST@{BST}!count@{count}}
 \index{count@{count}!BST@{BST}}
 \doxyparagraph{count()}
 {\footnotesize\ttfamily int B\+S\+T\+::count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
+
+
+Counts how many leafs are in tree helper function. 
+
+\begin{DoxyReturn}{Returns}
+returns to helper function to traverse other side of tree 
+\end{DoxyReturn}
 \mbox{\label{class_b_s_t_a0d1f32372fa3bb973ef825b2261d6356}} 
 \index{BST@{BST}!countPrivate@{countPrivate}}
 \index{countPrivate@{countPrivate}!BST@{BST}}
 \doxyparagraph{countPrivate()}
 {\footnotesize\ttfamily int B\+S\+T\+::count\+Private (\begin{DoxyParamCaption}\item[{\textbf{ node} $\ast$}]{Ptr,  }\item[{int \&}]{count }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
 
+
+
+Counts the number of all leafs. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Ptr} & The pointer needed to traverse the tree \\
+\hline
+{\em count} & The amount of trees\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Number of leafs. 
+\end{DoxyReturn}
 \mbox{\label{class_b_s_t_a11ea460ec5c5dc3550e49da6f772a9f7}} 
 \index{BST@{BST}!createLeaf@{createLeaf}}
 \index{createLeaf@{createLeaf}!BST@{BST}}
 \doxyparagraph{createLeaf()}
 {\footnotesize\ttfamily \textbf{ B\+S\+T\+::node} $\ast$ B\+S\+T\+::create\+Leaf (\begin{DoxyParamCaption}\item[{char}]{key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
 
+
+
+Adds a leaf to the \doxyref{B\+ST}{p.}{class_b_s_t}. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em key} & The value being added\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns node pointer to last value entered 
+\end{DoxyReturn}
 \mbox{\label{class_b_s_t_a2983e277941fcb08cafd889957e871a3}} 
 \index{BST@{BST}!find@{find}}
 \index{find@{find}!BST@{BST}}
 \doxyparagraph{find()}
-{\footnotesize\ttfamily void B\+S\+T\+::find (\begin{DoxyParamCaption}\item[{char}]{key\+To\+Find }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily void B\+S\+T\+::find (\begin{DoxyParamCaption}\item[{char}]{key }\end{DoxyParamCaption})}
 
+
+
+Searches for the first match. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em key} & The key to search for \\
+\hline
+\end{DoxyParams}
 \mbox{\label{class_b_s_t_a501290793341bf0e91a3854e2a70a11e}} 
 \index{BST@{BST}!findPrivate@{findPrivate}}
 \index{findPrivate@{findPrivate}!BST@{BST}}
 \doxyparagraph{findPrivate()}
 {\footnotesize\ttfamily void B\+S\+T\+::find\+Private (\begin{DoxyParamCaption}\item[{\textbf{ node} $\ast$}]{Ptr,  }\item[{char}]{key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
 
+
+
+Finds a private. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+ & {\em Ptr} & The pointer to traverse the tree \\
+\hline
+\mbox{\texttt{ in}}  & {\em key} & The key to be found \\
+\hline
+\end{DoxyParams}
 \mbox{\label{class_b_s_t_ae5470182812e1bd044760fc50291900c}} 
 \index{BST@{BST}!findsmallest@{findsmallest}}
 \index{findsmallest@{findsmallest}!BST@{BST}}
 \doxyparagraph{findsmallest()}
 {\footnotesize\ttfamily int B\+S\+T\+::findsmallest (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
+
+
+Helper function for findsmallest\+Private. 
+
+\begin{DoxyReturn}{Returns}
+returns to associated function to recurse tree again 
+\end{DoxyReturn}
 \mbox{\label{class_b_s_t_a10c803aac91e0c0d9d7589e91f2dde30}} 
 \index{BST@{BST}!findsmallestPrivate@{findsmallestPrivate}}
 \index{findsmallestPrivate@{findsmallestPrivate}!BST@{BST}}
 \doxyparagraph{findsmallestPrivate()}
 {\footnotesize\ttfamily int B\+S\+T\+::findsmallest\+Private (\begin{DoxyParamCaption}\item[{\textbf{ node} $\ast$}]{Ptr }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
 
+
+
+Finds the smallest node. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Ptr} & The pointer used to traverse the tree\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+return\textquotesingle{}s node with smallest key 
+\end{DoxyReturn}
 \mbox{\label{class_b_s_t_af6fc1c68971ea63558eefe4a813a6eb5}} 
 \index{BST@{BST}!printPreOrder@{printPreOrder}}
 \index{printPreOrder@{printPreOrder}!BST@{BST}}
 \doxyparagraph{printPreOrder()}
 {\footnotesize\ttfamily void B\+S\+T\+::print\+Pre\+Order (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Prints the \doxyref{B\+ST}{p.}{class_b_s_t} in Pre-\/\+Order. 
 
 \mbox{\label{class_b_s_t_ad2c3cfb108a948fa70b592f8375e4ab2}} 
 \index{BST@{BST}!printPreOrderPrivate@{printPreOrderPrivate}}
@@ -134,29 +238,75 @@ void \textbf{ find\+Private} (\textbf{ node} $\ast$Ptr, char key)
 \doxyparagraph{printPreOrderPrivate()}
 {\footnotesize\ttfamily void B\+S\+T\+::print\+Pre\+Order\+Private (\begin{DoxyParamCaption}\item[{\textbf{ node} $\ast$}]{Ptr }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
 
+
+
+Prints the values of the \doxyref{B\+ST}{p.}{class_b_s_t}\textquotesingle{}s private members. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Ptr} & The pointer needed to recurse through tree \\
+\hline
+\end{DoxyParams}
 \mbox{\label{class_b_s_t_a5d95e1324b03e68f1ae8c82e73404bdd}} 
 \index{BST@{BST}!removeMatch@{removeMatch}}
 \index{removeMatch@{removeMatch}!BST@{BST}}
 \doxyparagraph{removeMatch()}
 {\footnotesize\ttfamily void B\+S\+T\+::remove\+Match (\begin{DoxyParamCaption}\item[{\textbf{ node} $\ast$}]{parent,  }\item[{\textbf{ node} $\ast$}]{match,  }\item[{bool}]{left }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
 
+
+
+Removes a match. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+ & {\em parent} & The parent \\
+\hline
+ & {\em match} & The match \\
+\hline
+\mbox{\texttt{ in}}  & {\em left} & The left \\
+\hline
+\end{DoxyParams}
 \mbox{\label{class_b_s_t_a372cdc70aba8baa54b1e3fc4a2a0cde7}} 
 \index{BST@{BST}!removeNode@{removeNode}}
 \index{removeNode@{removeNode}!BST@{BST}}
 \doxyparagraph{removeNode()}
 {\footnotesize\ttfamily void B\+S\+T\+::remove\+Node (\begin{DoxyParamCaption}\item[{int}]{key }\end{DoxyParamCaption})}
 
+
+
+Removes a node with a provided key This is really a helper function for remove\+Node\+Private. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em key} & The key to be removed. \\
+\hline
+\end{DoxyParams}
 \mbox{\label{class_b_s_t_ab3d4587da7630a1ebd154bf66637fb40}} 
 \index{BST@{BST}!removeNodePrivate@{removeNodePrivate}}
 \index{removeNodePrivate@{removeNodePrivate}!BST@{BST}}
 \doxyparagraph{removeNodePrivate()}
 {\footnotesize\ttfamily void B\+S\+T\+::remove\+Node\+Private (\begin{DoxyParamCaption}\item[{int}]{key,  }\item[{\textbf{ node} $\ast$}]{parent }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
 
+
+
+Removes a node\textquotesingle{}s private key value. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em key} & The key to be removed \\
+\hline
+ & {\em parent} & The parent above the removed key for reassigning child node \\
+\hline
+\end{DoxyParams}
 \mbox{\label{class_b_s_t_a408494fce4074a920cee197140db75b5}} 
 \index{BST@{BST}!removeRootMatch@{removeRootMatch}}
 \index{removeRootMatch@{removeRootMatch}!BST@{BST}}
 \doxyparagraph{removeRootMatch()}
 {\footnotesize\ttfamily void B\+S\+T\+::remove\+Root\+Match (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Removes a root match. 
 
 \mbox{\label{class_b_s_t_adf98d3fe8721fbfd3d972e19b92452b0}} 
 \index{BST@{BST}!searchKey@{searchKey}}
@@ -164,6 +314,15 @@ void \textbf{ find\+Private} (\textbf{ node} $\ast$Ptr, char key)
 \doxyparagraph{searchKey()}
 {\footnotesize\ttfamily void B\+S\+T\+::search\+Key (\begin{DoxyParamCaption}\item[{int}]{key }\end{DoxyParamCaption})}
 
+
+
+Searches tree for a given value. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em key} & The key to find \\
+\hline
+\end{DoxyParams}
 \mbox{\label{class_b_s_t_a2d7d62b2b49c695630b2a3185beb6a10}} 
 \index{BST@{BST}!searchKeyPrivate@{searchKeyPrivate}}
 \index{searchKeyPrivate@{searchKeyPrivate}!BST@{BST}}

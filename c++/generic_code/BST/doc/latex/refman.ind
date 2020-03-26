@@ -1,115 +1,115 @@
 \begin{theindex}
 
   \item {addLeaf}
-    \subitem {BST}, 2
+    \subitem {BST}, 3
   \item {addLeafPrivate}
     \subitem {BST}, 3
 
   \indexspace
 
   \item {BST}, 2
-    \subitem {addLeaf}, 2
+    \subitem {addLeaf}, 3
     \subitem {addLeafPrivate}, 3
-    \subitem {BST}, 2
+    \subitem {BST}, 3
     \subitem {count}, 3
-    \subitem {countPrivate}, 3
-    \subitem {createLeaf}, 3
-    \subitem {find}, 3
-    \subitem {findPrivate}, 3
-    \subitem {findsmallest}, 3
-    \subitem {findsmallestPrivate}, 3
-    \subitem {printPreOrder}, 3
-    \subitem {printPreOrderPrivate}, 4
-    \subitem {removeMatch}, 4
-    \subitem {removeNode}, 4
-    \subitem {removeNodePrivate}, 4
-    \subitem {removeRootMatch}, 4
-    \subitem {root}, 4
-    \subitem {searchKey}, 4
-    \subitem {searchKeyPrivate}, 4
-  \item {BST.cpp}, 5
-  \item {BST.h}, 6
-  \item {BST::node}, 5
-    \subitem {key}, 5
-    \subitem {left}, 5
-    \subitem {right}, 5
+    \subitem {countPrivate}, 4
+    \subitem {createLeaf}, 4
+    \subitem {find}, 4
+    \subitem {findPrivate}, 4
+    \subitem {findsmallest}, 5
+    \subitem {findsmallestPrivate}, 5
+    \subitem {printPreOrder}, 5
+    \subitem {printPreOrderPrivate}, 5
+    \subitem {removeMatch}, 6
+    \subitem {removeNode}, 6
+    \subitem {removeNodePrivate}, 6
+    \subitem {removeRootMatch}, 6
+    \subitem {root}, 7
+    \subitem {searchKey}, 6
+    \subitem {searchKeyPrivate}, 7
+  \item {BST.cpp}, 8
+  \item {BST.h}, 8
+  \item {BST::node}, 7
+    \subitem {key}, 7
+    \subitem {left}, 7
+    \subitem {right}, 7
 
   \indexspace
 
   \item {clearScreen}
-    \subitem {driver.cpp}, 6
+    \subitem {driver.cpp}, 8
   \item {count}
     \subitem {BST}, 3
   \item {countPrivate}
-    \subitem {BST}, 3
+    \subitem {BST}, 4
   \item {createLeaf}
-    \subitem {BST}, 3
+    \subitem {BST}, 4
 
   \indexspace
 
-  \item {driver.cpp}, 6
-    \subitem {clearScreen}, 6
-    \subitem {main}, 6
-    \subitem {menu}, 6
-    \subitem {pauseScreen}, 6
+  \item {driver.cpp}, 8
+    \subitem {clearScreen}, 8
+    \subitem {main}, 9
+    \subitem {menu}, 9
+    \subitem {pauseScreen}, 9
 
   \indexspace
 
   \item {find}
-    \subitem {BST}, 3
+    \subitem {BST}, 4
   \item {findPrivate}
-    \subitem {BST}, 3
+    \subitem {BST}, 4
   \item {findsmallest}
-    \subitem {BST}, 3
+    \subitem {BST}, 5
   \item {findsmallestPrivate}
-    \subitem {BST}, 3
+    \subitem {BST}, 5
 
   \indexspace
 
   \item {key}
-    \subitem {BST::node}, 5
+    \subitem {BST::node}, 7
 
   \indexspace
 
   \item {left}
-    \subitem {BST::node}, 5
+    \subitem {BST::node}, 7
 
   \indexspace
 
   \item {main}
-    \subitem {driver.cpp}, 6
+    \subitem {driver.cpp}, 9
   \item {menu}
-    \subitem {driver.cpp}, 6
+    \subitem {driver.cpp}, 9
 
   \indexspace
 
   \item {pauseScreen}
-    \subitem {driver.cpp}, 6
+    \subitem {driver.cpp}, 9
   \item {printPreOrder}
-    \subitem {BST}, 3
+    \subitem {BST}, 5
   \item {printPreOrderPrivate}
-    \subitem {BST}, 4
+    \subitem {BST}, 5
 
   \indexspace
 
   \item {removeMatch}
-    \subitem {BST}, 4
+    \subitem {BST}, 6
   \item {removeNode}
-    \subitem {BST}, 4
+    \subitem {BST}, 6
   \item {removeNodePrivate}
-    \subitem {BST}, 4
+    \subitem {BST}, 6
   \item {removeRootMatch}
-    \subitem {BST}, 4
+    \subitem {BST}, 6
   \item {right}
-    \subitem {BST::node}, 5
+    \subitem {BST::node}, 7
   \item {root}
-    \subitem {BST}, 4
+    \subitem {BST}, 7
 
   \indexspace
 
   \item {searchKey}
-    \subitem {BST}, 4
+    \subitem {BST}, 6
   \item {searchKeyPrivate}
-    \subitem {BST}, 4
+    \subitem {BST}, 7
 
 \end{theindex}
