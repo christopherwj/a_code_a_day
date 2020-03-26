@@ -7,18 +7,18 @@
 \begin{DoxyCompactItemize}
 \item 
 void \textbf{ clear\+Screen} (void)
-\item 
+\begin{DoxyCompactList}\small\item\em clears user screen \end{DoxyCompactList}\item 
 int \textbf{ main} (void)
-\item 
+\begin{DoxyCompactList}\small\item\em Binary Search Tree. \end{DoxyCompactList}\item 
 void \textbf{ pause\+Screen} (void)
-\item 
+\begin{DoxyCompactList}\small\item\em stop screen so user can read text \end{DoxyCompactList}\item 
 int \textbf{ menu} (void)
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Creates user selectable menu. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsubsection*{Variables}
 \begin{DoxyCompactItemize}
 \item 
 \textbf{ B\+ST} \textbf{ my\+Tree} = \textbf{ B\+ST}()
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em statically created object my tree for use with menu \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \doxysubsubsection{Function Documentation}
@@ -28,23 +28,42 @@ int \textbf{ menu} (void)
 \doxyparagraph{clearScreen()}
 {\footnotesize\ttfamily void clear\+Screen (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
 
+
+
+clears user screen 
+
 \mbox{\label{main_8h_a840291bc02cba5474a4cb46a9b9566fe}} 
 \index{main.h@{main.h}!main@{main}}
 \index{main@{main}!main.h@{main.h}}
 \doxyparagraph{main()}
 {\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
 
-\mbox{\label{main_8h_a7f3db509b04b31b00f287fa6b8959fad}} 
+
+
+Binary Search Tree. 
+
+Creates an enviornemnt for the main code to run in \mbox{\label{main_8h_a7f3db509b04b31b00f287fa6b8959fad}} 
 \index{main.h@{main.h}!menu@{menu}}
 \index{menu@{menu}!main.h@{main.h}}
 \doxyparagraph{menu()}
 {\footnotesize\ttfamily int menu (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
 
+
+
+Creates user selectable menu. 
+
+\begin{DoxyReturn}{Returns}
+choice for program to operate off of 
+\end{DoxyReturn}
 \mbox{\label{main_8h_a6f5f77f24578a18c7d79f87129a50315}} 
 \index{main.h@{main.h}!pauseScreen@{pauseScreen}}
 \index{pauseScreen@{pauseScreen}!main.h@{main.h}}
 \doxyparagraph{pauseScreen()}
 {\footnotesize\ttfamily void pause\+Screen (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+stop screen so user can read text 
 
 
 
@@ -54,4 +73,8 @@ int \textbf{ menu} (void)
 \index{myTree@{myTree}!main.h@{main.h}}
 \doxyparagraph{myTree}
 {\footnotesize\ttfamily \textbf{ B\+ST} my\+Tree = \textbf{ B\+ST}()}
+
+
+
+statically created object my tree for use with menu 
 

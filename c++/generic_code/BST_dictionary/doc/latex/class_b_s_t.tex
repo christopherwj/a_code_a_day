@@ -15,24 +15,28 @@ struct \textbf{ Node}
 \textbf{ B\+ST} ()
 \item 
 int \textbf{ add\+Leaf} (char $\ast$, char $\ast$, \textbf{ Node} $\ast$)
-\item 
+\begin{DoxyCompactList}\small\item\em Adds a leaf. \end{DoxyCompactList}\item 
 char $\ast$$\ast$ \textbf{ find\+Leaf} (char $\ast$, \textbf{ Node} $\ast$)
-\item 
+\begin{DoxyCompactList}\small\item\em Finds a leaf. \end{DoxyCompactList}\item 
 \textbf{ Node} $\ast$ \textbf{ get\+Root} (void)
-\item 
+\begin{DoxyCompactList}\small\item\em Gets the root. \end{DoxyCompactList}\item 
 void \textbf{ print\+In\+Order} (\textbf{ Node} $\ast$)
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Prints in order. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsubsection*{Private Member Functions}
 \begin{DoxyCompactItemize}
 \item 
 \textbf{ Node} $\ast$ \textbf{ create\+Leaf} (char $\ast$, char $\ast$)
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Creates a leaf to add. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsubsection*{Private Attributes}
 \begin{DoxyCompactItemize}
 \item 
 \textbf{ Node} $\ast$ \textbf{ root}
 \end{DoxyCompactItemize}
 
+
+\doxysubsubsection{Detailed Description}
+class to create and manage the leafs of the tree ~\newline
+ 
 
 \doxysubsubsection{Constructor \& Destructor Documentation}
 \mbox{\label{class_b_s_t_abc17123a0367c3b8ad0382eeb3ad3178}} 
@@ -50,30 +54,90 @@ void \textbf{ print\+In\+Order} (\textbf{ Node} $\ast$)
 \doxyparagraph{addLeaf()}
 {\footnotesize\ttfamily int B\+S\+T\+::add\+Leaf (\begin{DoxyParamCaption}\item[{char $\ast$}]{word,  }\item[{char $\ast$}]{def,  }\item[{\textbf{ Node} $\ast$}]{ptr }\end{DoxyParamCaption})}
 
+
+
+Adds a leaf. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em word} & The word to be added \\
+\hline
+{\em def} & The definition associated with word to be added. \\
+\hline
+{\em ptr} & The pointer to traverse the tree.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns 0 on success -\/1 on failure 
+\end{DoxyReturn}
 \mbox{\label{class_b_s_t_a8b82204367fbbcfa019ddb3b843984cd}} 
 \index{BST@{BST}!createLeaf@{createLeaf}}
 \index{createLeaf@{createLeaf}!BST@{BST}}
 \doxyparagraph{createLeaf()}
 {\footnotesize\ttfamily \textbf{ B\+S\+T\+::\+Node} $\ast$ B\+S\+T\+::create\+Leaf (\begin{DoxyParamCaption}\item[{char $\ast$}]{word,  }\item[{char $\ast$}]{def }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
 
+
+
+Creates a leaf to add. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em word} & The word to add \\
+\hline
+{\em def} & The definition attached to that word\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns pointer for adding later 
+\end{DoxyReturn}
 \mbox{\label{class_b_s_t_a63939f70798441852eafa2cd9ad0b581}} 
 \index{BST@{BST}!findLeaf@{findLeaf}}
 \index{findLeaf@{findLeaf}!BST@{BST}}
 \doxyparagraph{findLeaf()}
 {\footnotesize\ttfamily char $\ast$$\ast$ B\+S\+T\+::find\+Leaf (\begin{DoxyParamCaption}\item[{char $\ast$}]{word,  }\item[{\textbf{ Node} $\ast$}]{ptr }\end{DoxyParamCaption})}
 
+
+
+Finds a leaf. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em word} & The word to find \\
+\hline
+{\em ptr} & The pointer to traverse the tree\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns word and definition if found 
+\end{DoxyReturn}
 \mbox{\label{class_b_s_t_a3bc9f26a0e81decca32fc6cfed0b03fd}} 
 \index{BST@{BST}!getRoot@{getRoot}}
 \index{getRoot@{getRoot}!BST@{BST}}
 \doxyparagraph{getRoot()}
 {\footnotesize\ttfamily \textbf{ B\+S\+T\+::\+Node} $\ast$ B\+S\+T\+::get\+Root (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
 
+
+
+Gets the root. 
+
+\begin{DoxyReturn}{Returns}
+The root. 
+\end{DoxyReturn}
 \mbox{\label{class_b_s_t_aa67b499a049a827cf9b12e32b5220b53}} 
 \index{BST@{BST}!printInOrder@{printInOrder}}
 \index{printInOrder@{printInOrder}!BST@{BST}}
 \doxyparagraph{printInOrder()}
 {\footnotesize\ttfamily void B\+S\+T\+::print\+In\+Order (\begin{DoxyParamCaption}\item[{\textbf{ Node} $\ast$}]{ptr }\end{DoxyParamCaption})}
 
+
+
+Prints in order. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ptr} & The pointer to traverse for printing. \\
+\hline
+\end{DoxyParams}
 
 
 \doxysubsubsection{Member Data Documentation}

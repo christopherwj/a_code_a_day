@@ -1,38 +1,38 @@
 \begin{theindex}
 
   \item {addLeaf}
-    \subitem {BST}, 2
+    \subitem {BST}, 3
 
   \indexspace
 
   \item {BST}, 2
-    \subitem {addLeaf}, 2
+    \subitem {addLeaf}, 3
     \subitem {BST}, 2
-    \subitem {createLeaf}, 2
+    \subitem {createLeaf}, 3
     \subitem {findLeaf}, 3
-    \subitem {getRoot}, 3
-    \subitem {printInOrder}, 3
-    \subitem {root}, 3
-  \item {BST.cpp}, 4
-  \item {BST.h}, 4
-  \item {BST::Node}, 3
-    \subitem {def}, 3
-    \subitem {left}, 3
-    \subitem {right}, 4
-    \subitem {word}, 4
+    \subitem {getRoot}, 4
+    \subitem {printInOrder}, 4
+    \subitem {root}, 4
+  \item {BST.cpp}, 5
+  \item {BST.h}, 5
+  \item {BST::Node}, 4
+    \subitem {def}, 5
+    \subitem {left}, 5
+    \subitem {right}, 5
+    \subitem {word}, 5
 
   \indexspace
 
   \item {clearScreen}
-    \subitem {main.cpp}, 4
-    \subitem {main.h}, 5
+    \subitem {main.cpp}, 6
+    \subitem {main.h}, 7
   \item {createLeaf}
-    \subitem {BST}, 2
+    \subitem {BST}, 3
 
   \indexspace
 
   \item {def}
-    \subitem {BST::Node}, 3
+    \subitem {BST::Node}, 5
 
   \indexspace
 
@@ -42,53 +42,53 @@
   \indexspace
 
   \item {getRoot}
-    \subitem {BST}, 3
+    \subitem {BST}, 4
 
   \indexspace
 
   \item {left}
-    \subitem {BST::Node}, 3
+    \subitem {BST::Node}, 5
 
   \indexspace
 
   \item {main}
-    \subitem {main.cpp}, 5
-    \subitem {main.h}, 5
-  \item {main.cpp}, 4
-    \subitem {clearScreen}, 4
-    \subitem {main}, 5
-    \subitem {menu}, 5
-    \subitem {pauseScreen}, 5
-  \item {main.h}, 5
-    \subitem {clearScreen}, 5
-    \subitem {main}, 5
-    \subitem {menu}, 5
-    \subitem {myTree}, 6
+    \subitem {main.cpp}, 6
+    \subitem {main.h}, 7
+  \item {main.cpp}, 5
+    \subitem {clearScreen}, 6
+    \subitem {main}, 6
+    \subitem {menu}, 6
     \subitem {pauseScreen}, 6
+  \item {main.h}, 6
+    \subitem {clearScreen}, 7
+    \subitem {main}, 7
+    \subitem {menu}, 7
+    \subitem {myTree}, 7
+    \subitem {pauseScreen}, 7
   \item {menu}
-    \subitem {main.cpp}, 5
-    \subitem {main.h}, 5
+    \subitem {main.cpp}, 6
+    \subitem {main.h}, 7
   \item {myTree}
-    \subitem {main.h}, 6
+    \subitem {main.h}, 7
 
   \indexspace
 
   \item {pauseScreen}
-    \subitem {main.cpp}, 5
-    \subitem {main.h}, 6
+    \subitem {main.cpp}, 6
+    \subitem {main.h}, 7
   \item {printInOrder}
-    \subitem {BST}, 3
+    \subitem {BST}, 4
 
   \indexspace
 
   \item {right}
-    \subitem {BST::Node}, 4
+    \subitem {BST::Node}, 5
   \item {root}
-    \subitem {BST}, 3
+    \subitem {BST}, 4
 
   \indexspace
 
   \item {word}
-    \subitem {BST::Node}, 4
+    \subitem {BST::Node}, 5
 
 \end{theindex}
