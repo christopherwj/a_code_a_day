@@ -1,0 +1,79 @@
+\begin{theindex}
+
+  \item {$\sim$Stack}
+    \subitem {Stack}, 3
+
+  \indexspace
+
+  \item {data}
+    \subitem {Stack::Node}, 2
+  \item {display}
+    \subitem {Stack}, 4
+  \item {driver.cpp}, 5
+    \subitem {main}, 5
+
+  \indexspace
+
+  \item {empty}
+    \subitem {Stack}, 4
+
+  \indexspace
+
+  \item {main}
+    \subitem {driver.cpp}, 5
+  \item {myTop}
+    \subitem {Stack}, 4
+
+  \indexspace
+
+  \item {next}
+    \subitem {Stack::Node}, 2
+  \item {Node}
+    \subitem {Stack::Node}, 2
+  \item {NodePointer}
+    \subitem {Stack}, 3
+
+  \indexspace
+
+  \item {operator=}
+    \subitem {Stack}, 4
+
+  \indexspace
+
+  \item {pop}
+    \subitem {Stack}, 4
+  \item {push}
+    \subitem {Stack}, 4
+
+  \indexspace
+
+  \item {STACK}
+    \subitem {Stack.h}, 6
+  \item {Stack}, 2
+    \subitem {$\sim$Stack}, 3
+    \subitem {display}, 4
+    \subitem {empty}, 4
+    \subitem {myTop}, 4
+    \subitem {NodePointer}, 3
+    \subitem {operator=}, 4
+    \subitem {pop}, 4
+    \subitem {push}, 4
+    \subitem {Stack}, 3
+    \subitem {top}, 4
+  \item {Stack.cpp}, 5
+  \item {Stack.h}, 5
+    \subitem {STACK}, 6
+    \subitem {StackElement}, 6
+  \item {Stack::Node}, 2
+    \subitem {data}, 2
+    \subitem {next}, 2
+    \subitem {Node}, 2
+  \item {StackElement}
+    \subitem {Stack.h}, 6
+
+  \indexspace
+
+  \item {top}
+    \subitem {Stack}, 4
+
+\end{theindex}
