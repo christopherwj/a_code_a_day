@@ -99,16 +99,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a366660970b5eeb5c17436062327f1b14"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_account.html#a366660970b5eeb5c17436062327f1b14">Account</a> ()</td></tr>
 <tr class="separator:a366660970b5eeb5c17436062327f1b14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ce5c34208e22cf573abeb9710324a24"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_account.html#a6ce5c34208e22cf573abeb9710324a24">Account</a> (double)</td></tr>
+<tr class="memdesc:a6ce5c34208e22cf573abeb9710324a24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new instance.  <a href="class_account.html#a6ce5c34208e22cf573abeb9710324a24">More...</a><br /></td></tr>
 <tr class="separator:a6ce5c34208e22cf573abeb9710324a24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a956573e62b35b88667f7ba919fc31acd"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_account.html#a956573e62b35b88667f7ba919fc31acd">getBalance</a> (void)</td></tr>
+<tr class="memdesc:a956573e62b35b88667f7ba919fc31acd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the balance.  <a href="class_account.html#a956573e62b35b88667f7ba919fc31acd">More...</a><br /></td></tr>
 <tr class="separator:a956573e62b35b88667f7ba919fc31acd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac810c872429a54e7552f2c03a78b13f0"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_account.html#ac810c872429a54e7552f2c03a78b13f0">getRate</a> ()</td></tr>
+<tr class="memdesc:ac810c872429a54e7552f2c03a78b13f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the rate.  <a href="class_account.html#ac810c872429a54e7552f2c03a78b13f0">More...</a><br /></td></tr>
 <tr class="separator:ac810c872429a54e7552f2c03a78b13f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fef3163df8af41c441d7cedd32b23b5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_account.html#a8fef3163df8af41c441d7cedd32b23b5">deposit</a> (double)</td></tr>
+<tr class="memdesc:a8fef3163df8af41c441d7cedd32b23b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">deposits money into the account  <a href="class_account.html#a8fef3163df8af41c441d7cedd32b23b5">More...</a><br /></td></tr>
 <tr class="separator:a8fef3163df8af41c441d7cedd32b23b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65838f0f5406690183b3fe3c61b96c9d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_account.html#a65838f0f5406690183b3fe3c61b96c9d">withdrawl</a> (double)</td></tr>
+<tr class="memdesc:a65838f0f5406690183b3fe3c61b96c9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Withdrawls money from account.  <a href="class_account.html#a65838f0f5406690183b3fe3c61b96c9d">More...</a><br /></td></tr>
 <tr class="separator:a65838f0f5406690183b3fe3c61b96c9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9cfc6042966aa962593dad9a5e14195"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_account.html#af9cfc6042966aa962593dad9a5e14195">accrueInterest</a> (int)</td></tr>
+<tr class="memdesc:af9cfc6042966aa962593dad9a5e14195"><td class="mdescLeft">&#160;</td><td class="mdescRight">accrues interest over time  <a href="class_account.html#af9cfc6042966aa962593dad9a5e14195">More...</a><br /></td></tr>
 <tr class="separator:af9cfc6042966aa962593dad9a5e14195"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
@@ -152,6 +158,14 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Constructs a new instance. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">startingBalance</td><td>The starting balance of the account. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -171,6 +185,15 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>accrues interest over time </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">input</td><td>The time in months to accrue interest</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if interest can be accrued, false if not </dd></dl>
+
 </div>
 </div>
 <a id="a8fef3163df8af41c441d7cedd32b23b5"></a>
@@ -188,6 +211,15 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>deposits money into the account </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">input</td><td>The input to deposit</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true for success and false for failure </dd></dl>
 
 </div>
 </div>
@@ -207,6 +239,9 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Gets the balance. </p>
+<dl class="section return"><dt>Returns</dt><dd>The balance. </dd></dl>
+
 </div>
 </div>
 <a id="ac810c872429a54e7552f2c03a78b13f0"></a>
@@ -223,6 +258,9 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets the rate. </p>
+<dl class="section return"><dt>Returns</dt><dd>The rate. </dd></dl>
 
 </div>
 </div>
@@ -241,6 +279,15 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Withdrawls money from account. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">input</td><td>The amount to withdrawl</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>returns true for success and false for failure </dd></dl>
 
 </div>
 </div>

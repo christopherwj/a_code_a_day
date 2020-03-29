@@ -12,7 +12,10 @@ using namespace std;
 	int menu();
 	void clearScreen();
 	void pauseScreen();
-	//declaring forward declarations to initialize before calling
+	/**
+	 * Driver main function
+	 * Creates a UI for the user to interact with
+	 */
 	int main()
 	{
 		int input = 0;
@@ -78,6 +81,11 @@ using namespace std;
 		} while (input != 6);
 
 	}
+	/**
+	 * @brief      Menu for user to interact 
+	 *
+	 * @return     returns a value to switch case to operate off of 
+	 */
 	int menu()
 	{
 		int input;
@@ -106,6 +114,9 @@ using namespace std;
 		}
 		return input;
 	}
+	/**
+	 * @brief      clears screen for next interface to appear
+	 */
 	void clearScreen()
 	{
 		system("CLS");
@@ -115,6 +126,9 @@ using namespace std;
 			std::cin.ignore(1000, '\n');
 		}
 	}
+	/**
+	 * @brief      Keeps info on screen long enough for user to read
+	 */
 	void pauseScreen()
 	{
 		std::cin.clear();

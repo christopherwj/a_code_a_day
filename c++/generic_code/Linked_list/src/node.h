@@ -1,7 +1,10 @@
 #pragma once
 #include <cstdlib>
 
-
+/**
+ * @class Node Node.h This class describes a node.
+ * This class creates nodes to insert and link into the list.
+ */
 class Node
 {
 public:

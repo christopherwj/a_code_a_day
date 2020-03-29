@@ -10,8 +10,15 @@ BST::BST() {
 	root = NULL;
 }
 
-
-BST::Node* BST::createLeaf(char *word, char *def) { //string word inported from user
+/**
+ * @brief      Creates a leaf to add
+ *
+ * @param      word  The word to add
+ * @param      def   The definition attached to that word
+ *
+ * @return     returns pointer for adding later
+ */
+BST::Node* BST::createLeaf(char *word, char *def) { //string word imported from user
 	Node* n = new Node;
 	n->word = word;
 	n->def  = def;
@@ -20,7 +27,15 @@ BST::Node* BST::createLeaf(char *word, char *def) { //string word inported from 
 
 	return n;
 }
-
+/**
+ * @brief      Adds a leaf.
+ *
+ * @param      word  The word to be added
+ * @param      def   The definition associated with word to be added.
+ * @param      ptr   The pointer to traverse the tree.
+ *
+ * @return     returns 0 on success -1 on failure
+ */
 int BST::addLeaf(char *word, char *def, Node* ptr)
 {
 	if (root == NULL)
@@ -51,7 +66,14 @@ int BST::addLeaf(char *word, char *def, Node* ptr)
 		return -1; /* if word already exists */
 	}
 }
-
+/**
+ * @brief      Finds a leaf.
+ *
+ * @param      word  The word to find
+ * @param      ptr   The pointer to traverse the tree
+ *
+ * @return     returns word and definition if found
+ */
 char** BST::findLeaf(char *word, Node* ptr)
 {
 	if (root == NULL)
@@ -80,11 +102,20 @@ char** BST::findLeaf(char *word, Node* ptr)
 		return vals;
 	}
 }
-
+/**
+ * @brief      Gets the root.
+ *
+ * @return     The root.
+ */
 BST::Node* BST::getRoot(){
 	return root;
 }
 
+/**
+ * @brief      Prints in order.
+ *
+ * @param      ptr   The pointer to traverse for printing.
+ */
 void BST::printInOrder(Node* ptr)
 {
 	if (root != NULL)

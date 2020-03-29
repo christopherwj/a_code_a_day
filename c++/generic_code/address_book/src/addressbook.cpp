@@ -6,7 +6,11 @@ AddressBook::AddressBook() {
 	currentPosition = head;
 }
 
-
+/**
+ * @brief      Adds a contact.
+ *
+ * @param[in]  newContact  The new contact
+ */
 void AddressBook::addContact(Contact newContact) {
 	Contact *temp = new Contact();
 	temp->firstName = newContact.firstName;
@@ -31,7 +35,13 @@ void AddressBook::addContact(Contact newContact) {
 		c = c->next;
 	}
 }
-
+/**
+ * @brief      deletes a contact
+ *
+ * @param[in]  toDelete  contact to delete
+ *
+ * @return     returns 0 on completion
+ */
 bool AddressBook::deleteContact(Contact toDelete){
 	Contact *temp = head;
 	currentPosition = head->next;
@@ -51,7 +61,13 @@ bool AddressBook::deleteContact(Contact toDelete){
 	return 0;
 
 }
-
+/**
+ * @brief      Finds a contact.
+ *
+ * @param[in]  firstName  The first name to find
+ *
+ * @return     return one on success
+ */
 int AddressBook::findContact(std::string firstName){
 	if (head == nullptr) { return 0; }
 	currentPosition = head;
@@ -64,7 +80,13 @@ int AddressBook::findContact(std::string firstName){
 
 	return 1;
 }
-
+/**
+ * @brief      Finds a contact.
+ *
+ * @param[in]  compare  The contact to find
+ *
+ * 
+ */
 int AddressBook::findContact(Contact compare){
 	if (head == nullptr) { return 0; }
 	currentPosition = head;
@@ -77,7 +99,13 @@ int AddressBook::findContact(Contact compare){
 
 	return 0;
 }
-
+/**
+ * @brief      Adds a contact
+ *
+ * @param[in]  firstName  The first name of the contact to add.
+ *
+ * @return     returns false on failure
+ */
 bool AddressBook::editContact(std::string firstName){
 	if (head == nullptr) { return false; }
 	currentPosition = head;
@@ -145,7 +173,9 @@ bool AddressBook::editContact(std::string firstName){
 	std::cout << currentPosition->address << std::endl;
 	return true;
 }
-
+/**
+ * @brief      Gets the current contact.
+ */
 void AddressBook::getCurrent() {
 
 	std::cout << currentPosition->firstName << std::endl;
@@ -154,7 +184,9 @@ void AddressBook::getCurrent() {
 	std::cout << currentPosition->address << std::endl;
 
 }
-
+/**
+ * @brief      Makes address book empty.
+ */
 void AddressBook::makeEmpty() {
 	Contact *temp = head->next;
 	while(true){
@@ -165,7 +197,9 @@ void AddressBook::makeEmpty() {
 	temp = head->next;
 	}
 }
-
+/**
+ * @brief      Prints a contact.
+ */
 void AddressBook::printContact() {
 
 	std::cout << currentPosition->firstName << std::endl;

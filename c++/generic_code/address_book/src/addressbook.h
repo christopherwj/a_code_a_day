@@ -2,7 +2,10 @@
 #define addressbook
 
 #include "contact.h"
-
+/**
+ * @class addressbook addressbook.h 
+ * @brief      This class describes an address book.
+ */
 class AddressBook
 {
 private:

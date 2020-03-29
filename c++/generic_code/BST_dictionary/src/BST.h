@@ -1,6 +1,10 @@
 #ifndef BST_H
 #define BST_H
 
+/**
+ * @class BST BST.h 
+ * class to create and manage the leafs of the tree      
+ */
 class BST{
 
 private:

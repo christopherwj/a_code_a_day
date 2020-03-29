@@ -11,7 +11,13 @@ BST::BST()
 {
 	root = NULL;
 }
-
+/**
+ * @brief      Adds a leaf to the BST
+ *
+ * @param[in]  key   The value being added
+ *
+ * @return     returns node pointer to last value entered
+ */
 BST::node* BST::createLeaf(char key)
 {
 	node* n = new node;
@@ -20,13 +26,23 @@ BST::node* BST::createLeaf(char key)
 	n->right = NULL;
 	return n;
 }
-
+/**
+ * @brief      Adds a leaf.
+ *
+ * @param[in]  key   The key/value to add
+ * 
+ */
 void BST::addLeaf(char key)
 {
 	addLeafPrivate(key, root);
 }
 
-
+/**
+ * @brief      Adds a leaf private.
+ *
+ * @param[in]  key   The key to be added
+ * @param      Ptr   The node pointer
+ */
 void BST::addLeafPrivate(int key, node* Ptr)
 {
 	if (root == NULL)
@@ -60,12 +76,19 @@ void BST::addLeafPrivate(int key, node* Ptr)
 		cout << " The key " << key << " has already been added to the tree." << endl;
 	}
 }
+/**
+ * @brief      Prints the BST in Pre-Order
+ */
 void BST::printPreOrder()
 {
 	printPreOrderPrivate(root); // start at root and traverse the rest of the tree
 	cout << endl;
 }
-
+/**
+ * @brief      Prints the values of the BST's private members
+ *
+ * @param      Ptr   The pointer needed to recurse through tree
+ */
 void BST::printPreOrderPrivate(node* Ptr)
 {
 	
@@ -106,7 +129,11 @@ void BST::printPreOrderPrivate(node* Ptr)
 	}
 }
 
-
+/**
+ * @brief      Searches tree for a given value
+ *
+ * @param[in]  key   The key to find
+ */
 void BST::searchKey(int key)
 {
 	searchKeyPrivate(key, root);
@@ -145,12 +172,22 @@ void BST::searchKeyPrivate(char key, node* Ptr) //option 3
 		cout << " The key " << key << " exists within the binary search tree." << endl;
 	}
 }
-
+/**
+ * @brief      Removes a node with a provided key
+ * This is really a helper function for removeNodePrivate
+ *
+ * @param[in]  key   The key to be removed.
+ */
 void BST::removeNode(int key) {
 	removeNodePrivate(key, root);
 }
 
-
+/**
+ * @brief      Removes a node's private key value.
+ *
+ * @param[in]  key     The key to be removed
+ * @param      parent  The parent above the removed key for reassigning child node
+ */
 void BST::removeNodePrivate(int key, node* parent) {
 	if (root != NULL) 
 	{
@@ -184,7 +221,9 @@ void BST::removeNodePrivate(int key, node* parent) {
 	}
 
 }
-
+/**
+ * @brief      Removes a root match.
+ */
 void BST::removeRootMatch() {
 	if (root != NULL)
 	{
@@ -231,13 +270,23 @@ void BST::removeRootMatch() {
 }
 
 
-
+/**
+ * @brief      Helper function for findsmallestPrivate
+ *
+ * @return     returns to associated function to recurse tree again
+ */
 int BST::findsmallest() {
 	return findsmallestPrivate(root);
 }
 
 
-
+/**
+ * @brief      Finds the smallest node
+ *
+ * @param      Ptr   The pointer used to traverse the tree
+ *
+ * @return     return's node with smallest key
+ */
 int BST::findsmallestPrivate(node* Ptr) {
 	if (root == NULL)
 	{
@@ -257,6 +306,13 @@ int BST::findsmallestPrivate(node* Ptr) {
 	}
 }
 
+/**
+ * @brief      Removes a match.
+ *
+ * @param      parent  The parent
+ * @param      match   The match
+ * @param[in]  left    The left
+ */
 void BST::removeMatch(node* parent, node* match, bool left)
 {
 	if (root != NULL)
@@ -300,18 +356,31 @@ void BST::removeMatch(node* parent, node* match, bool left)
 		cout << "Cannot remove match" << endl;
 	}
 }
-
+/**
+ * @brief      Counts how many leafs are in tree helper function
+ *
+ * @return     returns to helper function to traverse other side of tree
+ */
 int BST::count() {
 	int counter = 0;
 	return countPrivate(root, counter);
 }
-
+/**
+ * @brief      Searches for the first match.
+ *
+ * @param[in]  key   The key to search for
+ */
 void BST::find(char key) {
 	char keyToFind;
 	keyToFind = key;
 	return findPrivate(root, keyToFind);
 }
-
+/**
+ * @brief      Finds a private.
+ *
+ * @param      Ptr   The pointer to traverse the tree
+ * @param[in]  key   The key to be found
+ */
 void BST::findPrivate(node* Ptr, char key)
 {
 
@@ -341,7 +410,14 @@ void BST::findPrivate(node* Ptr, char key)
 		cout << "The tree is empty." << endl;
 	}
 }
-
+/**
+ * @brief      Counts the number of all leafs
+ *
+ * @param      Ptr    The pointer needed to traverse the tree
+ * @param      count  The amount of trees
+ *
+ * @return     Number of leafs.
+ */
 int BST::countPrivate(node* Ptr, int &count) {
 	
 	if (root != NULL)

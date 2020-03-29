@@ -1,4 +1,9 @@
 #pragma once
+
+/**
+ * @class account account.h  
+ * @brief      This class describes an account.
+ */
 class Account
 {
 private:

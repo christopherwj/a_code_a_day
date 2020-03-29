@@ -8,7 +8,9 @@
 #include "linked_list.h"	//linking
 
 using namespace std;
-
+/**
+ * @breif 	Creates a space in memory for the program to run in 
+ */
 int menu();
 void clearScreen();
 void pauseScreen();

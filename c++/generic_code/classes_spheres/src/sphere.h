@@ -6,6 +6,12 @@
 //#include <cmath> originally included to use M_PI to gain 12 decimal places for higher accuracy, but couldn't get it to work
 //#pragma warning(disable : 4996) <- was a work around that got me closer to using math.h, but still didn't work 
 
+/**
+ * @class sphere sphere.h 
+ * @brief      Class to manage spheres
+ * This class has an overload function that allows a sphere to be passed, and then 
+ * reads out the values for that sphere like radious, diameter and volume.
+ */
 class Sphere  //initializing class Sphere	
 {
 public:  //accessibile to anyone who asks for it, need to go through public of class to reach private data

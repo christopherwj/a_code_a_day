@@ -1,5 +1,10 @@
 #pragma once
 
+/**
+ * @class BST BST.h 
+ * @brief BST class to traverse nodes and delete or re-organize
+ * Class that builds and navigates a binary search tree
+ */
 class BST
 {
 

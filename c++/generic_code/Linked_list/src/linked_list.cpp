@@ -11,6 +11,11 @@ linked_list::linked_list()	//default constructor when linked list object "a" is 
 	this->length = 0;	//initialize our list size to zero since it has no members
 }
 
+/**
+ * @brief      Inserts a node into the linked list
+ *
+ * @param[in]  x     value to be insterted into the list (number)
+ */
 void linked_list::insert(int x)		//here is my insert function, it automatically inserts at end, it takes a data value as input
 {
 	Node* temp = new Node;		// call up the node class and create a node with two values, one being data, and one being the address of the next node (next pointer)
@@ -27,7 +32,11 @@ void linked_list::insert(int x)		//here is my insert function, it automatically 
 	}
 	this->length++;		//everytime I insert a node increment that specific linked list's length variable
 }
-
+/**
+ * @brief      checks if linked list is empty
+ *
+ * @return     true if empty, false if it contains data
+ */
 bool linked_list::Empty()	//checks if linked list is empty, if empty return true, else false. Print statements were for prototyping.
 {
 	if (this->length == 0) {
@@ -37,7 +46,11 @@ bool linked_list::Empty()	//checks if linked list is empty, if empty return true
 	//cout << "There are members in the list." << endl;
 	return false;
 }
-
+/**
+ * @brief      adds a list item to end of list
+ *
+ * @param[in]  x     value to be added into the list
+ */
 void linked_list::InsertAtEnd(int x)	//lab specifies we need this, yet the menu doesn't show this as an option. It does the same as the insert function. Included just in case.
 {
 	Node* temp = new Node;
@@ -53,7 +66,11 @@ void linked_list::InsertAtEnd(int x)	//lab specifies we need this, yet the menu 
 	}
 	this->length++;
 }
-
+/**
+ * @brief      traverses list to delete a given value.
+ *
+ * @param[in]  x     value to delete
+ */
 void linked_list::Delete(int x)		// input a data type to look for and delete it
 {
 	if (this->Empty() == true) {	//first check there are elements to delete.
@@ -82,7 +99,9 @@ void linked_list::Delete(int x)		// input a data type to look for and delete it
 		return;
 	}
 }
-
+/**
+ * @brief      Displays the list values.
+ */
 void linked_list::Display()	//create a function to go through and print each node in order of list implementation
 {
 	if (this->Empty() == true) {	//check to see if there is anything to display
@@ -99,7 +118,11 @@ void linked_list::Display()	//create a function to go through and print each nod
 	}
 	cout << "\n";
 }
-
+/**
+ * @brief      Adds all the values in the list
+ *
+ * @return     value of all items in the list
+ */
 int linked_list::Sum()	//sums all values in list
 {	
 	int sum = 0;	//create an int to return
@@ -117,7 +140,11 @@ int linked_list::Sum()	//sums all values in list
 	//cout << " The sum is: " << sum;
 	return sum;			// return sum to be printed in main
 }
-
+/**
+ * @brief      averages all values in list
+ *
+ * @return     average of list values
+ */
 int linked_list::Average()
 {
 	if (this->Empty() == true) {	//check if list has members

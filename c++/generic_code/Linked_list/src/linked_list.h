@@ -7,7 +7,10 @@
 
 
 
-
+/**
+ * @class linked_list linked_list.h 
+ * Class handle the linking and searching of the LL      
+ */
 class linked_list	//this class helps to build a linked list with the helper/supprting class node
 {
 

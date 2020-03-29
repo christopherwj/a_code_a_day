@@ -4,6 +4,10 @@
 #include <iostream>
 #include <string>
 
+/**
+ * @class contact contact.h  
+ * @brief      This class describes a contact.
+ */
 class Contact
 {
 private:

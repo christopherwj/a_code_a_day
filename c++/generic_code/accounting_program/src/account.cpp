@@ -6,24 +6,42 @@ Account::Account()
 	balance = 0;
 	rate = .05;
 }
-//
+/**
+ * @brief      Constructs a new instance.
+ *
+ * @param[in]  startingBalance  The starting balance of the account.
+ */
 Account::Account(double startingBalance)
 {
 	balance = startingBalance;
 	rate = .05;	
 }
-//constructor
-double Account::getBalance() //void no parameter = void parameter with return as double
+/**
+ * @brief      Gets the balance.
+ *
+ * @return     The balance.
+ */
+double Account::getBalance() 
 {	
 	return balance;
 }
-//function has a return type and is not a constructor
 
-double Account::getRate() //void no parameter = void parameter with return as double
+/**
+ * @brief      Gets the rate.
+ *
+ * @return     The rate.
+ */
+double Account::getRate() 
 {
 	return rate;
 }
-
+/**
+ * @brief      deposits money into the account
+ *
+ * @param[in]  input  The input to deposit
+ *
+ * @return     true for success and false for failure
+ */
 bool Account::deposit(double input){
 	if (input < 0.00) {
 		return false;
@@ -32,7 +50,13 @@ bool Account::deposit(double input){
 	balance += input;
 	return true;
 }
-
+/**
+ * @brief      Withdrawls money from account
+ *
+ * @param[in]  input  The amount to withdrawl
+ *
+ * @return     returns true for success and false for failure
+ */
 bool Account::withdrawl(double input) {
 	if (input < 0) {
 		return false;
@@ -43,7 +67,13 @@ bool Account::withdrawl(double input) {
 	balance -= input;
 	return true;
 }
-
+/**
+ * @brief      accrues interest over time
+ *
+ * @param[in]  input  The time in months to accrue interest
+ *
+ * @return     true if interest can be accrued, false if not
+ */
 bool Account::accrueInterest(int input) {
 	if (input < 0) {
 		return false;
