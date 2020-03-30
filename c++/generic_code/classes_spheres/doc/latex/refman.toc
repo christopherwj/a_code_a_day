@@ -3,28 +3,30 @@
 \contentsline {subsection}{\numberline {1.1}Class List}{1}
 \contentsline {section}{\numberline {2}File Index}{1}
 \contentsline {subsection}{\numberline {2.1}File List}{1}
-\contentsline {section}{\numberline {3}Class Documentation}{1}
-\contentsline {subsection}{\numberline {3.1}Sphere Class Reference}{1}
+\contentsline {section}{\numberline {3}Class Documentation}{2}
+\contentsline {subsection}{\numberline {3.1}Sphere Class Reference}{2}
 \contentsline {subsubsection}{\numberline {3.1.1}Constructor \& Destructor Documentation}{2}
 \contentsline {paragraph}{\numberline {3.1.1.1}Sphere()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [1/2]}}{2}
 \contentsline {paragraph}{\numberline {3.1.1.2}Sphere()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [2/2]}}{2}
-\contentsline {subsubsection}{\numberline {3.1.2}Member Function Documentation}{2}
-\contentsline {paragraph}{\numberline {3.1.2.1}display()}{2}
-\contentsline {paragraph}{\numberline {3.1.2.2}getArea()}{2}
-\contentsline {paragraph}{\numberline {3.1.2.3}getCircumference()}{2}
-\contentsline {paragraph}{\numberline {3.1.2.4}getDiameter()}{3}
-\contentsline {paragraph}{\numberline {3.1.2.5}getRadius()}{3}
-\contentsline {paragraph}{\numberline {3.1.2.6}getVolume()}{3}
-\contentsline {paragraph}{\numberline {3.1.2.7}setRadius()}{3}
-\contentsline {subsubsection}{\numberline {3.1.3}Member Data Documentation}{3}
-\contentsline {paragraph}{\numberline {3.1.3.1}radius}{3}
-\contentsline {section}{\numberline {4}File Documentation}{3}
-\contentsline {subsection}{\numberline {4.1}driver.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp File Reference}{3}
-\contentsline {subsubsection}{\numberline {4.1.1}Function Documentation}{3}
-\contentsline {paragraph}{\numberline {4.1.1.1}main()}{4}
-\contentsline {paragraph}{\numberline {4.1.1.2}operator$<$$<$()}{4}
-\contentsline {subsection}{\numberline {4.2}sphere.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp File Reference}{4}
-\contentsline {subsubsection}{\numberline {4.2.1}Macro Definition Documentation}{4}
-\contentsline {paragraph}{\numberline {4.2.1.1}M\_PI}{4}
-\contentsline {subsection}{\numberline {4.3}sphere.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}h File Reference}{4}
-\contentsline {section}{Index}{5}
+\contentsline {subsubsection}{\numberline {3.1.2}Member Function Documentation}{3}
+\contentsline {paragraph}{\numberline {3.1.2.1}display()}{3}
+\contentsline {paragraph}{\numberline {3.1.2.2}getArea()}{3}
+\contentsline {paragraph}{\numberline {3.1.2.3}getCircumference()}{3}
+\contentsline {paragraph}{\numberline {3.1.2.4}getDiameter()}{4}
+\contentsline {paragraph}{\numberline {3.1.2.5}getRadius()}{4}
+\contentsline {paragraph}{\numberline {3.1.2.6}getVolume()}{4}
+\contentsline {paragraph}{\numberline {3.1.2.7}setRadius()}{4}
+\contentsline {subsubsection}{\numberline {3.1.3}Member Data Documentation}{4}
+\contentsline {paragraph}{\numberline {3.1.3.1}radius}{4}
+\contentsline {subsection}{\numberline {3.2}sphere Class Reference}{5}
+\contentsline {subsubsection}{\numberline {3.2.1}Detailed Description}{5}
+\contentsline {section}{\numberline {4}File Documentation}{5}
+\contentsline {subsection}{\numberline {4.1}driver.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp File Reference}{5}
+\contentsline {subsubsection}{\numberline {4.1.1}Function Documentation}{5}
+\contentsline {paragraph}{\numberline {4.1.1.1}main()}{5}
+\contentsline {paragraph}{\numberline {4.1.1.2}operator$<$$<$()}{5}
+\contentsline {subsection}{\numberline {4.2}sphere.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp File Reference}{5}
+\contentsline {subsubsection}{\numberline {4.2.1}Macro Definition Documentation}{6}
+\contentsline {paragraph}{\numberline {4.2.1.1}M\_PI}{6}
+\contentsline {subsection}{\numberline {4.3}sphere.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}h File Reference}{6}
+\contentsline {section}{Index}{7}

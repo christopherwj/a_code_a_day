@@ -8,23 +8,23 @@
 \begin{DoxyCompactItemize}
 \item 
 \textbf{ Sphere} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Constructs a new instance. \end{DoxyCompactList}\item 
 \textbf{ Sphere} (double)
-\item 
+\begin{DoxyCompactList}\small\item\em Constructs a new instance. \end{DoxyCompactList}\item 
 double \textbf{ get\+Radius} () const
-\item 
+\begin{DoxyCompactList}\small\item\em Gets the radius. \end{DoxyCompactList}\item 
 double \textbf{ get\+Diameter} () const
-\item 
+\begin{DoxyCompactList}\small\item\em Gets the diameter. \end{DoxyCompactList}\item 
 double \textbf{ get\+Circumference} () const
-\item 
+\begin{DoxyCompactList}\small\item\em Gets the circumference. \end{DoxyCompactList}\item 
 double \textbf{ get\+Area} () const
-\item 
+\begin{DoxyCompactList}\small\item\em Gets the area. \end{DoxyCompactList}\item 
 double \textbf{ get\+Volume} () const
-\item 
+\begin{DoxyCompactList}\small\item\em Gets the volume. \end{DoxyCompactList}\item 
 void \textbf{ set\+Radius} (double)
-\item 
+\begin{DoxyCompactList}\small\item\em Sets the radius. \end{DoxyCompactList}\item 
 std\+::ostream \& \textbf{ display} (std\+::ostream \&)
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Displays the given out. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsubsection*{Private Attributes}
 \begin{DoxyCompactItemize}
 \item 
@@ -39,12 +39,25 @@ double \textbf{ radius}
 \doxyparagraph{Sphere()\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
 {\footnotesize\ttfamily Sphere\+::\+Sphere (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
+
+
+Constructs a new instance. 
+
 \mbox{\label{class_sphere_afe69d6b54cd80987531a2c082eb179b3}} 
 \index{Sphere@{Sphere}!Sphere@{Sphere}}
 \index{Sphere@{Sphere}!Sphere@{Sphere}}
 \doxyparagraph{Sphere()\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
 {\footnotesize\ttfamily Sphere\+::\+Sphere (\begin{DoxyParamCaption}\item[{double}]{r }\end{DoxyParamCaption})}
 
+
+
+Constructs a new instance. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em r} & radius of sphere being created \\
+\hline
+\end{DoxyParams}
 
 
 \doxysubsubsection{Member Function Documentation}
@@ -54,42 +67,98 @@ double \textbf{ radius}
 \doxyparagraph{display()}
 {\footnotesize\ttfamily std\+::ostream \& Sphere\+::display (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{out }\end{DoxyParamCaption})}
 
+
+
+Displays the given out. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em out} & The output to pass along\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+an ostream item to be chained/linked to cout for passing to stdio 
+\end{DoxyReturn}
 \mbox{\label{class_sphere_a8ba8bf0cb55defff8a99060c2b74ed7e}} 
 \index{Sphere@{Sphere}!getArea@{getArea}}
 \index{getArea@{getArea}!Sphere@{Sphere}}
 \doxyparagraph{getArea()}
 {\footnotesize\ttfamily double Sphere\+::get\+Area (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
 
+
+
+Gets the area. 
+
+\begin{DoxyReturn}{Returns}
+The area. 
+\end{DoxyReturn}
 \mbox{\label{class_sphere_a43bbbfa6ef0ccb04833cc9d16bb37f03}} 
 \index{Sphere@{Sphere}!getCircumference@{getCircumference}}
 \index{getCircumference@{getCircumference}!Sphere@{Sphere}}
 \doxyparagraph{getCircumference()}
 {\footnotesize\ttfamily double Sphere\+::get\+Circumference (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
 
+
+
+Gets the circumference. 
+
+\begin{DoxyReturn}{Returns}
+The circumference. 
+\end{DoxyReturn}
 \mbox{\label{class_sphere_a37bbf320847f6ce6d242e2699e0ec4be}} 
 \index{Sphere@{Sphere}!getDiameter@{getDiameter}}
 \index{getDiameter@{getDiameter}!Sphere@{Sphere}}
 \doxyparagraph{getDiameter()}
 {\footnotesize\ttfamily double Sphere\+::get\+Diameter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
 
+
+
+Gets the diameter. 
+
+\begin{DoxyReturn}{Returns}
+The diameter. 
+\end{DoxyReturn}
 \mbox{\label{class_sphere_a9e4e358f2fcab9c69296b76292654a2d}} 
 \index{Sphere@{Sphere}!getRadius@{getRadius}}
 \index{getRadius@{getRadius}!Sphere@{Sphere}}
 \doxyparagraph{getRadius()}
 {\footnotesize\ttfamily double Sphere\+::get\+Radius (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
 
+
+
+Gets the radius. 
+
+\begin{DoxyReturn}{Returns}
+The radius. 
+\end{DoxyReturn}
 \mbox{\label{class_sphere_a4fe38b306718f9c64b31730ccd00d8d8}} 
 \index{Sphere@{Sphere}!getVolume@{getVolume}}
 \index{getVolume@{getVolume}!Sphere@{Sphere}}
 \doxyparagraph{getVolume()}
 {\footnotesize\ttfamily double Sphere\+::get\+Volume (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
 
+
+
+Gets the volume. 
+
+\begin{DoxyReturn}{Returns}
+The volume. 
+\end{DoxyReturn}
 \mbox{\label{class_sphere_af1ed0460163228a55c4d3d95df8bb7e7}} 
 \index{Sphere@{Sphere}!setRadius@{setRadius}}
 \index{setRadius@{setRadius}!Sphere@{Sphere}}
 \doxyparagraph{setRadius()}
 {\footnotesize\ttfamily void Sphere\+::set\+Radius (\begin{DoxyParamCaption}\item[{double}]{r }\end{DoxyParamCaption})}
 
+
+
+Sets the radius. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em r} & The new value to change the radius to. \\
+\hline
+\end{DoxyParams}
 
 
 \doxysubsubsection{Member Data Documentation}
