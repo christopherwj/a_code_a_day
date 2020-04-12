@@ -2,7 +2,11 @@
 #include "Stack.h"
 #include <cstdio>
 using namespace std;
-
+/**
+ * @brief      Main function is rain here for stack
+ *
+ * @return 	   returns a zero upon completion of given code
+ */
 int main(void) {
 	Stack s;
 	s.push(54);

@@ -10,10 +10,16 @@
 
 using namespace std;
 
-//define the default constructor for Stack
+/**
+ * @brief      Constructs a new instance.
+ */
 Stack::Stack() : myTop(0) {};
 
-//define stack copy constructor
+/**
+ * @brief      Constructs a new instance.
+ *
+ * @param[in]  original  The value to add to the stack
+ */
 Stack::Stack(const Stack& original)
 {
 	myTop = 0;
@@ -32,7 +38,9 @@ Stack::Stack(const Stack& original)
 	}
 }
 
-//definition for Stack Destructor
+/**
+ * @brief      Destroys the object.
+ */
 Stack::~Stack()
 {
 	//set pointers to run through the stack
@@ -46,7 +54,13 @@ Stack::~Stack()
 	}
 }
 
-//definition for assignment operator
+/**
+ * @brief      Assignment operator.
+ *
+ * @param[in]  rightHandSide  The right hand side
+ *
+ * @return     The result of the assignment
+ */
 const Stack& Stack::operator=(const Stack& rightHandSide)
 {
 	if (this != &rightHandSide) //check if st = st
@@ -71,21 +85,33 @@ const Stack& Stack::operator=(const Stack& rightHandSide)
 	return *this;
 }
 
-//defintion of empty()
 
+/**
+ * @brief      Check to see if the stack is empty
+ *
+ * @return     true if empty, false if it contains elements 
+ */
 bool Stack::empty() const
 {
 	return (myTop == 0);
 }
 
-//defintion of push or insert for LL
+/**
+ * @brief      Push an object onto the stack
+ *
+ * @param[in]  value  The value to add to the stack
+ */
 void Stack::push(const StackElement& value)
 {
 	myTop = new Stack::Node(value, myTop);
 }
 
-//defintion of display 
 
+/**
+ * @brief      Displays the stack
+ *
+ * @param      out   stdio object to chain to cout
+ */
 void Stack::display(ostream& out) const
 {
 	Stack::NodePointer ptr;
@@ -93,7 +119,11 @@ void Stack::display(ostream& out) const
 		cout << ptr->data << endl;
 }
 
-//definition for top()
+/**
+ * @brief      returns the top element of the stack
+ *
+ * @return     The stack element at top
+ */
 StackElement Stack::top() const
 {
 	if (!empty())
@@ -110,7 +140,10 @@ StackElement Stack::top() const
 
 }
 
-//definition of pop()
+/**
+ * @brief      Pops the object off the stack.
+ * Removes the object on the top of the stack.
+ */
 void Stack::pop()
 {
 	if (!empty()) //check to make sure stack has elements

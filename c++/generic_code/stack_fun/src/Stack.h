@@ -12,7 +12,10 @@ using namespace std;
 #define STACK
 
 typedef int StackElement;
-
+/**
+ * @class 	Stack Stack.h
+ * @brief      Class for managing stack items
+ */
 class Stack
 {
 

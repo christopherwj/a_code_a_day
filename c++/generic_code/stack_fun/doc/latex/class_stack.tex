@@ -2,6 +2,11 @@
 \label{class_stack}\index{Stack@{Stack}}
 
 
+Class for managing stack items.  
+
+
+
+
 {\ttfamily \#include $<$Stack.\+h$>$}
 
 \doxysubsubsection*{Classes}
@@ -13,23 +18,23 @@ class \textbf{ Node}
 \begin{DoxyCompactItemize}
 \item 
 \textbf{ Stack} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Constructs a new instance. \end{DoxyCompactList}\item 
 \textbf{ Stack} (const \textbf{ Stack} \&original)
-\item 
+\begin{DoxyCompactList}\small\item\em Constructs a new instance. \end{DoxyCompactList}\item 
 \textbf{ $\sim$\+Stack} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Destroys the object. \end{DoxyCompactList}\item 
 const \textbf{ Stack} \& \textbf{ operator=} (const \textbf{ Stack} \&right\+Hand\+Side)
-\item 
+\begin{DoxyCompactList}\small\item\em Assignment operator. \end{DoxyCompactList}\item 
 bool \textbf{ empty} () const
-\item 
+\begin{DoxyCompactList}\small\item\em Check to see if the stack is empty. \end{DoxyCompactList}\item 
 void \textbf{ push} (const \textbf{ Stack\+Element} \&value)
-\item 
+\begin{DoxyCompactList}\small\item\em Push an object onto the stack. \end{DoxyCompactList}\item 
 void \textbf{ display} (ostream \&out) const
-\item 
+\begin{DoxyCompactList}\small\item\em Displays the stack. \end{DoxyCompactList}\item 
 \textbf{ Stack\+Element} \textbf{ top} () const
-\item 
+\begin{DoxyCompactList}\small\item\em returns the top element of the stack \end{DoxyCompactList}\item 
 void \textbf{ pop} ()
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Pops the object off the stack. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsubsection*{Private Types}
 \begin{DoxyCompactItemize}
 \item 
@@ -41,6 +46,9 @@ typedef \textbf{ Node} $\ast$ \textbf{ Node\+Pointer}
 \textbf{ Node\+Pointer} \textbf{ my\+Top}
 \end{DoxyCompactItemize}
 
+
+\doxysubsubsection{Detailed Description}
+Class for managing stack items. 
 
 \doxysubsubsection{Member Typedef Documentation}
 \mbox{\label{class_stack_a799d44b12c8cb74f4fcd257e329a9189}} 
@@ -58,17 +66,34 @@ typedef \textbf{ Node} $\ast$ \textbf{ Node\+Pointer}
 \doxyparagraph{Stack()\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
 {\footnotesize\ttfamily Stack\+::\+Stack (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
+
+
+Constructs a new instance. 
+
 \mbox{\label{class_stack_a5603ddb3889a3268abb284bfea47708c}} 
 \index{Stack@{Stack}!Stack@{Stack}}
 \index{Stack@{Stack}!Stack@{Stack}}
 \doxyparagraph{Stack()\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
 {\footnotesize\ttfamily Stack\+::\+Stack (\begin{DoxyParamCaption}\item[{const \textbf{ Stack} \&}]{original }\end{DoxyParamCaption})}
 
+
+
+Constructs a new instance. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em original} & The value to add to the stack \\
+\hline
+\end{DoxyParams}
 \mbox{\label{class_stack_a40bd5dff912f0e5290777c4b46d17809}} 
 \index{Stack@{Stack}!````~Stack@{$\sim$Stack}}
 \index{````~Stack@{$\sim$Stack}!Stack@{Stack}}
 \doxyparagraph{$\sim$Stack()}
 {\footnotesize\ttfamily Stack\+::$\sim$\+Stack (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destroys the object. 
 
 
 
@@ -79,36 +104,84 @@ typedef \textbf{ Node} $\ast$ \textbf{ Node\+Pointer}
 \doxyparagraph{display()}
 {\footnotesize\ttfamily void Stack\+::display (\begin{DoxyParamCaption}\item[{ostream \&}]{out }\end{DoxyParamCaption}) const}
 
+
+
+Displays the stack. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em out} & stdio object to chain to cout \\
+\hline
+\end{DoxyParams}
 \mbox{\label{class_stack_ab76cbabd546dc4ab2859797676ae1a71}} 
 \index{Stack@{Stack}!empty@{empty}}
 \index{empty@{empty}!Stack@{Stack}}
 \doxyparagraph{empty()}
 {\footnotesize\ttfamily bool Stack\+::empty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
 
+
+
+Check to see if the stack is empty. 
+
+\begin{DoxyReturn}{Returns}
+true if empty, false if it contains elements 
+\end{DoxyReturn}
 \mbox{\label{class_stack_a2c56960be0f4030c5f3a6abf9fe39da1}} 
 \index{Stack@{Stack}!operator=@{operator=}}
 \index{operator=@{operator=}!Stack@{Stack}}
 \doxyparagraph{operator=()}
 {\footnotesize\ttfamily const \textbf{ Stack} \& Stack\+::operator= (\begin{DoxyParamCaption}\item[{const \textbf{ Stack} \&}]{right\+Hand\+Side }\end{DoxyParamCaption})}
 
+
+
+Assignment operator. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em right\+Hand\+Side} & The right hand side\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The result of the assignment 
+\end{DoxyReturn}
 \mbox{\label{class_stack_a09e820f3c3531cf3f401af3b3ca5d56f}} 
 \index{Stack@{Stack}!pop@{pop}}
 \index{pop@{pop}!Stack@{Stack}}
 \doxyparagraph{pop()}
 {\footnotesize\ttfamily void Stack\+::pop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-\mbox{\label{class_stack_a6d49d6fc01effa2b0104bc127206f799}} 
+
+
+Pops the object off the stack. 
+
+Removes the object on the top of the stack. \mbox{\label{class_stack_a6d49d6fc01effa2b0104bc127206f799}} 
 \index{Stack@{Stack}!push@{push}}
 \index{push@{push}!Stack@{Stack}}
 \doxyparagraph{push()}
 {\footnotesize\ttfamily void Stack\+::push (\begin{DoxyParamCaption}\item[{const \textbf{ Stack\+Element} \&}]{value }\end{DoxyParamCaption})}
 
+
+
+Push an object onto the stack. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em value} & The value to add to the stack \\
+\hline
+\end{DoxyParams}
 \mbox{\label{class_stack_ab26c9c505e754cb0c2917c8d3039441b}} 
 \index{Stack@{Stack}!top@{top}}
 \index{top@{top}!Stack@{Stack}}
 \doxyparagraph{top()}
 {\footnotesize\ttfamily \textbf{ Stack\+Element} Stack\+::top (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
 
+
+
+returns the top element of the stack 
+
+\begin{DoxyReturn}{Returns}
+The stack element at top 
+\end{DoxyReturn}
 
 
 \doxysubsubsection{Member Data Documentation}

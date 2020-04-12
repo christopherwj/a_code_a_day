@@ -11,29 +11,30 @@
 \contentsline {paragraph}{\numberline {3.1.2.1}data}{2}
 \contentsline {paragraph}{\numberline {3.1.2.2}next}{2}
 \contentsline {subsection}{\numberline {3.2}Stack Class Reference}{2}
-\contentsline {subsubsection}{\numberline {3.2.1}Member Typedef Documentation}{3}
-\contentsline {paragraph}{\numberline {3.2.1.1}NodePointer}{3}
-\contentsline {subsubsection}{\numberline {3.2.2}Constructor \& Destructor Documentation}{3}
-\contentsline {paragraph}{\numberline {3.2.2.1}Stack()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [1/2]}}{3}
-\contentsline {paragraph}{\numberline {3.2.2.2}Stack()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [2/2]}}{3}
-\contentsline {paragraph}{\numberline {3.2.2.3}$\sim $Stack()}{3}
-\contentsline {subsubsection}{\numberline {3.2.3}Member Function Documentation}{4}
-\contentsline {paragraph}{\numberline {3.2.3.1}display()}{4}
-\contentsline {paragraph}{\numberline {3.2.3.2}empty()}{4}
-\contentsline {paragraph}{\numberline {3.2.3.3}operator=()}{4}
-\contentsline {paragraph}{\numberline {3.2.3.4}pop()}{4}
-\contentsline {paragraph}{\numberline {3.2.3.5}push()}{4}
-\contentsline {paragraph}{\numberline {3.2.3.6}top()}{4}
-\contentsline {subsubsection}{\numberline {3.2.4}Member Data Documentation}{4}
-\contentsline {paragraph}{\numberline {3.2.4.1}myTop}{4}
-\contentsline {section}{\numberline {4}File Documentation}{5}
-\contentsline {subsection}{\numberline {4.1}driver.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp File Reference}{5}
-\contentsline {subsubsection}{\numberline {4.1.1}Function Documentation}{5}
-\contentsline {paragraph}{\numberline {4.1.1.1}main()}{5}
-\contentsline {subsection}{\numberline {4.2}Stack.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp File Reference}{5}
-\contentsline {subsection}{\numberline {4.3}Stack.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}h File Reference}{5}
-\contentsline {subsubsection}{\numberline {4.3.1}Macro Definition Documentation}{6}
-\contentsline {paragraph}{\numberline {4.3.1.1}STACK}{6}
-\contentsline {subsubsection}{\numberline {4.3.2}Typedef Documentation}{6}
-\contentsline {paragraph}{\numberline {4.3.2.1}StackElement}{6}
-\contentsline {section}{Index}{7}
+\contentsline {subsubsection}{\numberline {3.2.1}Detailed Description}{3}
+\contentsline {subsubsection}{\numberline {3.2.2}Member Typedef Documentation}{3}
+\contentsline {paragraph}{\numberline {3.2.2.1}NodePointer}{3}
+\contentsline {subsubsection}{\numberline {3.2.3}Constructor \& Destructor Documentation}{3}
+\contentsline {paragraph}{\numberline {3.2.3.1}Stack()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [1/2]}}{4}
+\contentsline {paragraph}{\numberline {3.2.3.2}Stack()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [2/2]}}{4}
+\contentsline {paragraph}{\numberline {3.2.3.3}$\sim $Stack()}{4}
+\contentsline {subsubsection}{\numberline {3.2.4}Member Function Documentation}{4}
+\contentsline {paragraph}{\numberline {3.2.4.1}display()}{4}
+\contentsline {paragraph}{\numberline {3.2.4.2}empty()}{4}
+\contentsline {paragraph}{\numberline {3.2.4.3}operator=()}{4}
+\contentsline {paragraph}{\numberline {3.2.4.4}pop()}{5}
+\contentsline {paragraph}{\numberline {3.2.4.5}push()}{5}
+\contentsline {paragraph}{\numberline {3.2.4.6}top()}{5}
+\contentsline {subsubsection}{\numberline {3.2.5}Member Data Documentation}{5}
+\contentsline {paragraph}{\numberline {3.2.5.1}myTop}{5}
+\contentsline {section}{\numberline {4}File Documentation}{6}
+\contentsline {subsection}{\numberline {4.1}driver.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp File Reference}{6}
+\contentsline {subsubsection}{\numberline {4.1.1}Function Documentation}{6}
+\contentsline {paragraph}{\numberline {4.1.1.1}main()}{6}
+\contentsline {subsection}{\numberline {4.2}Stack.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp File Reference}{6}
+\contentsline {subsection}{\numberline {4.3}Stack.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}h File Reference}{6}
+\contentsline {subsubsection}{\numberline {4.3.1}Macro Definition Documentation}{7}
+\contentsline {paragraph}{\numberline {4.3.1.1}STACK}{7}
+\contentsline {subsubsection}{\numberline {4.3.2}Typedef Documentation}{7}
+\contentsline {paragraph}{\numberline {4.3.2.1}StackElement}{7}
+\contentsline {section}{Index}{9}
