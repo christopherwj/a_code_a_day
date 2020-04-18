@@ -33,3 +33,19 @@ int main(void){
 
 	return 0;
 }
+
+
+/* Here is another more elegant/simple way to do the problem
+*
+*
+*
+*int main(void){
+*	int total;
+*	for(int i = 1; i < 1000; i++){
+*		if(((n % 3) == 0) || ((n % 5) == 0)){
+*		total += i;
+*		}
+*	}
+*	printf("%d\n", total);
+*	return 0;	
+}
