@@ -5,12 +5,6 @@
 
 //Find the sum of all the multiples of 3 or 5 below 1000.
 
-/*
- *this could be more cleanly written where the function check() doesn't exist, but 
- * rather it's contents are inside the forloop. 
- * 
- *
- */
 int check(int n){
 
 	if (((n % 3) == 0) || ((n % 5) == 0)){
