@@ -27,20 +27,21 @@ int k = 20;  //end of range for numbers that go into finding largest number N
 int primes[9];
 int pos = 10;
 
+int j = 0;
+
 
 for (int i = 0; i < k; i++){
-	for ( int j = 1; j < pos; j++){
 		if (isPrime(i) == true){
 			primes[j] = i;
 			j++;
 		}
-	}
-i++;
+	i++;
 }
 
-for (int a = 0; a < pos; a++) 
-        printf("%d ", primes[a]); 
-    printf("\n"); 
+for (int a = 0; a < pos; a++){ 
+    printf("%d ", primes[a]); 
+    printf("\n");
+    } 
 
 	return 0;
 }
