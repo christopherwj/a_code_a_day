@@ -12,8 +12,8 @@ private:
 	struct node
 	{
 		char key;
-		node* left = NULL;
-		node* right = NULL;
+		node* left = 0;
+		node* right = 0;
 	};
 
 	node* root;
@@ -40,3 +40,4 @@ public:
 
 
 };
+

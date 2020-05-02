@@ -1,5 +1,5 @@
-#include <iostream>
 #include <cstdlib>
+#include <iostream>
 
 #include "BST.h"
 
@@ -22,8 +22,8 @@ BST::node* BST::createLeaf(char key)
 {
 	node* n = new node;
 	n->key = key;
-	n->left = NULL;
-	n->right = NULL;
+	n->left = 0;
+	n->right = 0;
 	return n;
 }
 /**
@@ -45,13 +45,13 @@ void BST::addLeaf(char key)
  */
 void BST::addLeafPrivate(int key, node* Ptr)
 {
-	if (root == NULL)
+	if (root == 0)
 	{
 		root = createLeaf(key);
 	}
 	else if (key < Ptr->key)
 	{
-		if (Ptr->left != NULL)
+		if (Ptr->left != 0)
 		{
 			addLeafPrivate(key, Ptr->left);
 		}
@@ -62,7 +62,7 @@ void BST::addLeafPrivate(int key, node* Ptr)
 	}
 	else if (key > Ptr->key)
 	{
-		if (Ptr->right != NULL)
+		if (Ptr->right != 0)
 		{
 			addLeafPrivate(key, Ptr->right);
 		}
@@ -92,30 +92,30 @@ void BST::printPreOrder()
 void BST::printPreOrderPrivate(node* Ptr)
 {
 	
-	if (root != NULL)
+	if (root != 0)
 	{
 		cout << Ptr->key << " ";
 		
-		if (Ptr->left != NULL && Ptr->right != NULL) { //case 3 both not null
+		if (Ptr->left != 0 && Ptr->right != 0) { //case 3 both not null
 			printf("%c   ", Ptr->left->key);
 			printf("%c ", Ptr->right->key);
 		}
-		if (Ptr->left == NULL)  { //case 1
+		if (Ptr->left == 0)  { //case 1
 			printf("NIL ");
 		}
-		if (Ptr->right == NULL) { // case 2
+		if (Ptr->right == 0) { // case 2
 			printf("NIL ");
 		}
-		if (Ptr->left != NULL)
+		if (Ptr->left != 0)
 		{
 			//printf("%c   ", Ptr->left->key);
 			cout << "\n";
 			printPreOrderPrivate(Ptr->left);
 		}
 
-		if (Ptr->right != NULL)
+		if (Ptr->right != 0)
 		{	
-			if (Ptr->left == NULL) {
+			if (Ptr->left == 0) {
 				cout << Ptr->right->key;
 			}
 			cout << "\n";
@@ -141,13 +141,13 @@ void BST::searchKey(int key)
 
 void BST::searchKeyPrivate(char key, node* Ptr) //option 3
 {
-	if (root == NULL)
+	if (root == 0)
 	{
 		cout << " There are no members in the binary search tree to search";
 	}
 	else if (key < Ptr->key)
 	{
-		if (Ptr->left != NULL)
+		if (Ptr->left != 0)
 		{
 			searchKeyPrivate(key, Ptr->left);
 		}
@@ -158,7 +158,7 @@ void BST::searchKeyPrivate(char key, node* Ptr) //option 3
 	}
 	else if (key > Ptr->key)
 	{
-		if (Ptr->right != NULL)
+		if (Ptr->right != 0)
 		{
 			searchKeyPrivate(key, Ptr->right);
 		}
@@ -189,7 +189,7 @@ void BST::removeNode(int key) {
  * @param      parent  The parent above the removed key for reassigning child node
  */
 void BST::removeNodePrivate(int key, node* parent) {
-	if (root != NULL) 
+	if (root != 0) 
 	{
 		if (root->key == key) 
 		{
@@ -197,13 +197,13 @@ void BST::removeNodePrivate(int key, node* parent) {
 		}
 		else
 		{
-			if (key < parent->key && parent->left != NULL)
+			if (key < parent->key && parent->left != 0)
 			{
 				parent->left->key == key ?
 				removeMatch(parent, parent->left, true) :
 				removeNodePrivate(key, parent->left);
 			}
-			else if (key > parent->key && parent->right != NULL)
+			else if (key > parent->key && parent->right != 0)
 			{
 				parent->right->key == key ?
 				removeMatch(parent, parent->left, false) :
@@ -225,31 +225,31 @@ void BST::removeNodePrivate(int key, node* parent) {
  * @brief      Removes a root match.
  */
 void BST::removeRootMatch() {
-	if (root != NULL)
+	if (root != 0)
 	{
 		node* deletePtr = root;
 		char rootKey = root->key;
 		char smallestRightSubtree;
 
 		//case 0 - root has no children
-		if (root->left == NULL && root->right == NULL)
+		if (root->left == 0 && root->right == 0)
 		{
-			root = NULL;
+			root = 0;
 			delete deletePtr;
 		}
 		// case 1- one child
-		else if (root->left == NULL && root->right != NULL)
+		else if (root->left == 0 && root->right != 0)
 		{
 			root = root->right;
-			deletePtr->right = NULL;	//disconnect the old root from the tree
+			deletePtr->right = 0;	//disconnect the old root from the tree
 			delete deletePtr;	//delete old root
 			cout << " The key " << rootKey << "was deleted." << "The new root contains the key" <<
 				root->key << endl;
 		}
-		else if (root->left != NULL && root->right == NULL)
+		else if (root->left != 0 && root->right == 0)
 		{
 			root = root->left;
-			deletePtr->left = NULL;        //disconnect the old root from the tree
+			deletePtr->left = 0;        //disconnect the old root from the tree
 			delete deletePtr;	//delete old root
 			cout << " The key " << rootKey << "was deleted." << "The new root contains the key" <<
 				root->key << endl;
@@ -288,14 +288,14 @@ int BST::findsmallest() {
  * @return     return's node with smallest key
  */
 int BST::findsmallestPrivate(node* Ptr) {
-	if (root == NULL)
+	if (root == 0)
 	{
 		cout << " The tree is empty.";
 		return -1000;
 	}
 	else
 	{
-		if (Ptr->left != NULL)
+		if (Ptr->left != 0)
 		{
 			return findsmallestPrivate(Ptr->left);
 		}
@@ -315,31 +315,31 @@ int BST::findsmallestPrivate(node* Ptr) {
  */
 void BST::removeMatch(node* parent, node* match, bool left)
 {
-	if (root != NULL)
+	if (root != 0)
 	{
 		node* deletePtr;
 		char matchKey = match->key;
 		char smallestRightsubtree;
 
-		if (match->left == NULL && match->right == NULL)
+		if (match->left == 0 && match->right == 0)
 		{
 			deletePtr = match;
-			left == true ? parent->left = NULL : parent->right = NULL;
+			left == true ? parent->left = 0 : parent->right = 0;
 			delete deletePtr;
 			cout << " The node containing " << matchKey << "has been moved.\n";
 		}
-		else if (match->left == NULL && match->right != NULL)
+		else if (match->left == 0 && match->right != 0)
 		{
 			left == true ? parent->left = match->right : parent->right = match->right;
-			match->right = NULL;
+			match->right = 0;
 			deletePtr = match;
 			delete deletePtr;
 			cout << "the node with the key" << matchKey << "was moved\n";
 		}
-		else if (match->left != NULL && match->right == NULL)
+		else if (match->left != 0 && match->right == 0)
 		{
 			left == true ? parent->left = match->left : parent->right = match->left;
-			match->right = NULL;
+			match->right = 0;
 			deletePtr = match;
 			delete deletePtr;
 			cout << "the node with the key" << matchKey << "was moved\n";
@@ -384,23 +384,23 @@ void BST::find(char key) {
 void BST::findPrivate(node* Ptr, char key)
 {
 
-	if (root != NULL)
+	if (root != 0)
 	{
 		if (Ptr->key == key) {
-			if (Ptr->left->key != NULL) {
+			if (Ptr->left->key != 0) {
 				printf("The child of %c is %c  \n ", key, Ptr->left->key);
 			}
-			if (Ptr->right->key != NULL) {
+			if (Ptr->right->key != 0) {
 				printf("The child of %c is %c ", key, Ptr->right->key);
 			}
 			return;
 		}
-		if (Ptr->left != NULL)
+		if (Ptr->left != 0)
 		{
 			findPrivate(Ptr->left, key);
 		}
 
-		if (Ptr->right != NULL)
+		if (Ptr->right != 0)
 		{
 			findPrivate(Ptr->right, key);
 		}
@@ -420,15 +420,15 @@ void BST::findPrivate(node* Ptr, char key)
  */
 int BST::countPrivate(node* Ptr, int &count) {
 	
-	if (root != NULL)
+	if (root != 0)
 	{
 		++count;
-		if (Ptr->left != NULL)
+		if (Ptr->left != 0)
 		{
 			countPrivate(Ptr->left, count);
 		}
 
-		if (Ptr->right != NULL)
+		if (Ptr->right != 0)
 		{	
 			countPrivate(Ptr->right, count);
 		}
