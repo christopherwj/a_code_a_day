@@ -62,7 +62,7 @@ int main()
 			break;
 		case 6:		// sibling of a node
 			char temp1;
-			cout << "Enter the item and it will display the sibling of that item.";
+			cout << "Enter an item to see that item's sibling .";
 			cin >> temp1;
 			myTree.find(temp1);
 			pauseScreen();
@@ -87,7 +87,7 @@ int menu()
 {
 	int input;
 	cout << "-----------------MENU-----------------" << endl;
-	cout << " Please enter the number for the operation you wish to perform from the menu." << endl;
+	cout << " Please enter a number to perform an action." << endl;
 	cout << "1. Insert node(s)" << endl;
 	cout << "2. Traverse Preorder and print" << endl;
 	cout << "3. Search BST" << endl;

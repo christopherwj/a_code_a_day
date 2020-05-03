@@ -73,7 +73,8 @@ void BST::addLeafPrivate(int key, node* Ptr)
 	}
 	else
 	{
-		cout << " The key " << key << " has already been added to the tree." << endl;
+		cout << " The key " << key << " has already been added to the tree." 
+			<< endl;
 	}
 }
 /**
@@ -81,7 +82,8 @@ void BST::addLeafPrivate(int key, node* Ptr)
  */
 void BST::printPreOrder()
 {
-	printPreOrderPrivate(root); // start at root and traverse the rest of the tree
+	// start at root and traverse the rest of the tree
+	printPreOrderPrivate(root); 
 	cout << endl;
 }
 /**
@@ -169,7 +171,8 @@ void BST::searchKeyPrivate(char key, node* Ptr) //option 3
 	}
 	else
 	{
-		cout << " The key " << key << " exists within the binary search tree." << endl;
+		cout << " The key " << key << " exists within the binary search tree." 
+			<< endl;
 	}
 }
 /**
@@ -186,7 +189,8 @@ void BST::removeNode(int key) {
  * @brief      Removes a node's private key value.
  *
  * @param[in]  key     The key to be removed
- * @param      parent  The parent above the removed key for reassigning child node
+ * @param      parent  The parent above the removed key for reassigning child 
+ *	node
  */
 void BST::removeNodePrivate(int key, node* parent) {
 	if (root != 0) 
@@ -243,23 +247,25 @@ void BST::removeRootMatch() {
 			root = root->right;
 			deletePtr->right = 0;	//disconnect the old root from the tree
 			delete deletePtr;	//delete old root
-			cout << " The key " << rootKey << "was deleted." << "The new root contains the key" <<
-				root->key << endl;
+			cout << " The key " << rootKey << "was deleted." 
+				<< "The new root contains the key" << root->key << endl;
 		}
 		else if (root->left != 0 && root->right == 0)
 		{
 			root = root->left;
 			deletePtr->left = 0;        //disconnect the old root from the tree
 			delete deletePtr;	//delete old root
-			cout << " The key " << rootKey << "was deleted." << "The new root contains the key" <<
-				root->key << endl;
+			cout << " The key " << rootKey << "was deleted." 
+				<< "The new root contains the key" << root->key << endl;
 		}
 		else 	//case two root node has two children
 		{
-			smallestRightSubtree = findsmallestPrivate(root->right); //deleting root smallest in rigt subtree
+			//deleting root smallest in rigt subtree
+			smallestRightSubtree = findsmallestPrivate(root->right); 
 			removeNodePrivate(smallestRightSubtree, root);
 			root->key = smallestRightSubtree;
-			cout << " the leaf value " << rootKey << "was replaced by " << root->key << endl;
+			cout << " the leaf value " << rootKey << "was replaced by " 
+				<< root->key << endl;
 		}
 	}
 	else
@@ -330,7 +336,8 @@ void BST::removeMatch(node* parent, node* match, bool left)
 		}
 		else if (match->left == 0 && match->right != 0)
 		{
-			left == true ? parent->left = match->right : parent->right = match->right;
+			left == true ? parent->left = match->right : parent->right = 
+				match->right;
 			match->right = 0;
 			deletePtr = match;
 			delete deletePtr;
@@ -338,7 +345,8 @@ void BST::removeMatch(node* parent, node* match, bool left)
 		}
 		else if (match->left != 0 && match->right == 0)
 		{
-			left == true ? parent->left = match->left : parent->right = match->left;
+			left == true ? parent->left = match->left : parent->right = 
+				match->left;
 			match->right = 0;
 			deletePtr = match;
 			delete deletePtr;
