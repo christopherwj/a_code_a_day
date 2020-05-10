@@ -42,7 +42,7 @@ int main()
 			pauseScreen();
 			break;
 		case 5: 
-			cout << "Please enter the amount of months that you wish to accrue interest\n";
+			cout << "Please enter the months that to accrue interest\n";
 			int accrue;
 			cin >> accrue;
 			if (acct.accrueInterest(accrue)== false){
@@ -61,7 +61,7 @@ int main()
 int menu()
 {
 	int input;
-	cout << "Enter the number for th eoperation you wish to perform from the menu." << endl;
+	cout << "Enter a number to perform an action from the menu." << endl;
 	cout << "1. Check Balance" << endl;
 	cout << "2. Check Current Rate" << endl;
 	cout << "3. Deposit to Account" << endl;
